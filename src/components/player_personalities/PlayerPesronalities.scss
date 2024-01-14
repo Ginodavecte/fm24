@@ -1,0 +1,51 @@
+.player-personalities{
+
+    &__title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__button {
+        & button {
+            padding: 12px;
+            background-color: rgb(33, 150, 243);
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            display: flex;
+            &:hover{
+                opacity: .9;
+            }
+        }
+    }
+
+    &__table{
+        .link-in-table{
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+
+        .p-datatable {
+            &-tbody > tr > td, &-thead > tr > th {
+                padding: 8px;
+            }
+        }
+
+        .skill-value-wrapper {
+            display: flex;
+        }
+
+        .rating-color-0-5 { color: red; }
+        .rating-color-6-10 { color: orange; }
+        .rating-color-11-15 { color: limegreen; }
+        .rating-color-16-20 { color: green; }
+
+        .highlighted-row { background-color: #e2f0ff; }
+
+    }
+
+}
