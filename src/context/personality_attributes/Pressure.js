@@ -5,7 +5,7 @@ export default function Pressure() {
   return (
     <div className="pressure" id="pressure">
       <div className="title">
-        <h4>Druk</h4>
+        <h3>Druk</h3>
         <NavigationDescriptions />
       </div>
       <div className="content">
@@ -25,16 +25,34 @@ export default function Pressure() {
           <div className="effect__content">
             <div className="effect__content-positive">
               Positive Effects:
-              • Higher pressure rating means they are less likely to feel under pressure.
-              • Will less likely display bad body language in and around matches.
-              • Less likely to be negatively affected by a negative mental state.
-              • Less likely to react to negative comments towards them and rebounds with positive influence or performance.
-              • Less likely to react to discipline.
-              • More likely to perform in pressure matches.
+              <ul>
+                <li>
+                  Hogere druk rating betekent dat ze minder snel onder druk komen te staan.
+                </li>
+                <li>
+                  Zullen minder snel slechte lichaamstaal vertonen in en rond wedstrijden.
+                </li>
+                <li>
+                  Minder snel negatief beïnvloed door een negatieve mentale staat.
+                </li>
+                <li>
+                  Minder snel reageren op negatieve opmerkingen naar hen en reageert met positieve invloed of prestaties.
+                </li>
+                <li>
+                  Minder snel reageren op discipline.
+                </li>
+                <li>
+                  Meer kans om te presteren in drukke wedstrijden.
+                </li>
+              </ul>
             </div>
             <div className="effect__content-negative">
               Negative Effects:
-              • You will have to be more sympathetic or relaxing with players with low pressure ratings.
+              <ul>
+                <li>
+                  You will have to be more sympathetic or relaxing with players with low pressure ratings.
+                </li>
+              </ul>
             </div>
           </div>
         </div>

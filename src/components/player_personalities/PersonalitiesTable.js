@@ -48,6 +48,15 @@ const PersonalitiesTable = ({ mainClass }) =>  {
 
   return (
     <div className={`${mainClass}__table`} id="table">
+      <div className={`${mainClass}__table-introduction`}>
+        <h3>Tabel Karakters</h3>
+        <div className={`${mainClass}__table-introduction-text`}>
+          Een overzicht van alle karakters en hun eigenschappen. Klik op de eigenschap waarden om meer over de eigenschap te weten te komen.
+          Hoe hoger hoe beter, dit geldt voor elke eigenschap die er staat. Los van de vastberadenheid en leiderschap zijn de eigenschappen verborgen eigenschappen.
+          Hierdoor kun je deze eigenschappen niet zien in het spel. De eigenschappen zijn wel van invloed op het gedrag van de speler.
+          Let daarom goed op de aankopen die je doet en de spelers die je in je team hebt.
+        </div>
+      </div>
       <DataTable value={tableData}
                  sortMode="multiple"
                  rowHover

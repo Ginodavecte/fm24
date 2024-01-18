@@ -1,11 +1,12 @@
 import React from "react";
+import {ReactComponent as FM24Logo} from './header-logo-desktop-large-fm21.svg';
 import "./Header.scss";
 
 const Header = () => {
   return (
     <div className="header">
-      <div className="header__wrapper">
-        <h2 className="header__title">Football Manager 24 - Personal Guide</h2>
+      <div className="header__title container">
+        <FM24Logo className="header__logo" />
       </div>
     </div>
   );

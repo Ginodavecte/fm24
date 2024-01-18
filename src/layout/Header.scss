@@ -1,8 +1,10 @@
 .header{
-  margin: 0 -16px;
+  background-color: rebeccapurple;
+  padding: 16px;
+  &__title{
+  }
 
-  h2{
-    margin: 0;
-    padding: 24px 0;
+  &__logo{
+    //padding: 16px
   }
 }

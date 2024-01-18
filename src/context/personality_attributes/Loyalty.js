@@ -5,7 +5,7 @@ export default function Loyalty() {
   return (
     <div className="loyalty" id="loyalty">
       <div className="title">
-        <h4>Loyaliteit</h4>
+        <h3>Loyaliteit</h3>
         <NavigationDescriptions />
       </div>
       <div className="content">
@@ -25,15 +25,31 @@ export default function Loyalty() {
           <div className="effect__content">
             <div className="effect__content-positive">
               Positive Effects:
-              • Be more supportive of manager’s opinion during interactions.
-              • More willing to accept lower value contracts at current club.
-              • More likely to stay or want to stay at their current club.
-              • More likely to accept transfer decisions made by their current club whether it’s buying or selling other players.
+              <ul>
+                <li>
+                  Be more supportive of manager’s opinion during interactions.
+                </li>
+                <li>
+                  Meer bereid om een lager contract te accepteren bij huidige club.
+                </li>
+                <li>
+                  Meer bereid om te blijven of te willen blijven bij huidige club.
+                </li>
+                <li>
+                  Meer bereid om transfer beslissingen van huidige club te accepteren, of het nu gaat om het kopen of verkopen van andere spelers.
+                </li>
+              </ul>
             </div>
             <div className="effect__content-negative">
               Negative Effects:
-              • When trying to buy a player with high loyalty – it is more difficult to deal with the player or club to the point of them not wanting to join.
-              • When trying to unsettle or convince a player to sign using the media – more likely to be annoyed and not want to join your club.
+              <ul>
+                <li>
+                  When trying to buy a player with high loyalty – it is more difficult to deal with the player or club to the point of them not wanting to join.
+                </li>
+                <li>
+                  When trying to unsettle or convince a player to sign using the media – more likely to be annoyed and not want to join your club.
+                </li>
+              </ul>
             </div>
           </div>
         </div>

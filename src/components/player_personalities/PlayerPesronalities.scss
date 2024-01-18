@@ -1,9 +1,38 @@
+@import '../../variablesGlobal';
+
+
 .player-personalities{
+
+
+    h3 {
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 4px;
+    }
 
     &__title{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        h3 {
+            display: flex;
+            align-items: center;
+            border-bottom: none;
+            svg{
+                margin-right: 8px;
+            }
+        }
+    }
+
+    &__introduction {
+        margin-bottom: 48px;
+        &--body {
+            ul{
+                padding-left: 24px;
+            }
+            div{
+                margin-bottom: 16px;
+            }
+        }
     }
 
     &__button {
@@ -22,6 +51,15 @@
     }
 
     &__table{
+        margin-bottom: 48px;
+        &-introduction {
+            margin-top: 16px;
+            margin-bottom: 24px;
+        }
+        .p-component{
+            font-family: $fontFamilyBody;
+            font-size: 15px
+        }
         .link-in-table{
             text-decoration: none;
             &:hover{
@@ -30,7 +68,8 @@
         }
 
         .p-datatable {
-            &-tbody > tr > td, &-thead > tr > th {
+            &-tbody > tr > td,
+            &-thead > tr > th {
                 padding: 8px;
             }
         }
@@ -43,7 +82,6 @@
         .rating-color-6-10 { color: orange; }
         .rating-color-11-15 { color: limegreen; }
         .rating-color-16-20 { color: green; }
-
         .highlighted-row { background-color: #e2f0ff; }
 
     }

@@ -5,7 +5,7 @@ export default function Sportsmanship() {
   return (
     <div className="sportsmanship" id="sportsmanship">
       <div className="title">
-        <h4>Sportsmanship</h4>
+        <h3>Sportsmanship</h3>
         <NavigationDescriptions />
       </div>
       <div className="content">
@@ -25,13 +25,25 @@ export default function Sportsmanship() {
           <div className="effect__content">
             <div className="effect__content-positive">
               Positive Effects:
-              • Respect the opposition during matches or after matches.
-              • Supportive of majority of manager’s decisions and interactions such as tutoring a young player.
+              <ul>
+                <li>
+                  More likely to be respectful of the opposition during matches or after matches.
+                </li>
+                <li>
+                  Supportive of majority of manager’s decisions and interactions such as tutoring a young player.
+                </li>
+              </ul>
             </div>
             <div className="effect__content-negative">
               Negative Effects:
-              • They could miss opportunities in matches to gain advantages due to their ethical values.
-                Not really do the “dirty work” or do the “shit-housery” needed to get the job done in difficult situations.
+              <ul>
+                <li>
+                  More likely to be disrespectful of the opposition during matches or after matches.
+                </li>
+                <li>
+                  More likely to be disrespectful of the manager’s decisions and interactions such as tutoring a young player.
+                </li>
+              </ul>
             </div>
           </div>
         </div>

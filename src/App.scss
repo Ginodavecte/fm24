@@ -1,0 +1,16 @@
+@import "variablesGlobal";
+
+body{
+  margin: 0;
+  font-family: $fontFamilyBody;
+}
+
+.container{
+  padding: 0 16px;
+  max-width: 1400px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+

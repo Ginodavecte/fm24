@@ -5,7 +5,7 @@ export default function Temperament() {
   return (
     <div className="temperament" id="temperament">
       <div className="title">
-        <h4>Temperament</h4>
+        <h3>Temperament</h3>
         <NavigationDescriptions />
       </div>
       <div className="content">
@@ -25,13 +25,25 @@ export default function Temperament() {
           <div className="effect__content">
             <div className="effect__content-positive">
               Positive Effects:
-              • Higher temperament means less likely to lose discipline or be frustrated.
-              • During matches they are less likely to become aggressive or frustrated when your team is struggling or referring decisions go “against them”.
-              • Less likely to react negatively to critical or disciplinary measures.
+              <ul>
+                <li>
+                  Hogere temperament betekent minder snel discipline verliezen of gefrustreerd raken.
+                </li>
+                <li>
+                  Tijdens wedstrijden zijn ze minder snel agressief of gefrustreerd wanneer je team worstelt of scheidsrechterlijke beslissingen “tegen hen” gaan.
+                </li>
+                <li>
+                  Minder snel negatief reageren op kritische of disciplinaire maatregelen.
+                </li>
+              </ul>
             </div>
             <div className="effect__content-negative">
               Negative Effects:
-              • People with low temperament ratings need to be handled lightly, and difficult to discipline as they would react more negatively.
+              <ul>
+                <li>
+                  Mensen met een lage temperamentbeoordeling moeten voorzichtig worden behandeld en zijn moeilijk te disciplineren omdat ze negatiever zouden reageren.
+                </li>
+              </ul>
             </div>
           </div>
         </div>

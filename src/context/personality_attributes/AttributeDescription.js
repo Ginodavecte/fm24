@@ -11,7 +11,7 @@ export default function AttributeDescription({ mainClass }) {
   return (
     <div className={`${mainClass}__description`}>
       <div className={`${mainClass}__description-title`}>
-        Uitleg Karakter Eigenschappen
+        <h3>Uitleg Karakter Eigenschappen</h3>
       </div>
       <div className={`${mainClass}__description-descriptions`} >
         <Ambition />

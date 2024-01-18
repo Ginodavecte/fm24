@@ -1,0 +1,60 @@
+.player-personalities__description {
+  &-title {
+    margin-bottom: 24px;
+  }
+  &-descriptions > div {
+    padding: 8px 16px 16px;
+    margin-bottom: 16px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0 8px 24px,
+                rgba(17, 17, 26, 0.1) 0 16px 56px,
+                rgba(17, 17, 26, 0.1) 0 24px 80px;
+    border-radius: 8px;
+  }
+
+   .title{
+     display: flex;
+     justify-content: space-between;
+
+     .navigate-descriptions{
+       & ul {
+         display: flex;
+         & li {
+           list-style: none;
+           & a {
+             text-decoration: none;
+             margin-right: 8px;
+             &:hover {
+               text-decoration: underline;
+             }
+             &:visited{
+               color: #0000EE;
+             }
+           }
+         }
+       }
+     }
+   }
+
+  .content {
+    .definition {
+      margin-bottom: 16px;
+      &__title {
+        margin-bottom: 8px;
+        font-style: italic;
+        font-weight: bold;
+      }
+    }
+
+    .effect {
+      &__title {
+        margin-bottom: 8px;
+        font-style: italic;
+        font-weight: bold;
+      }
+    }
+
+    ul {
+      padding-left: 24px;
+    }
+  }
+}

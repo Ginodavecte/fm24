@@ -5,7 +5,7 @@ export default function Ambition() {
   return (
     <div className="ambition" id="ambition">
       <div className="title">
-        <h4>Ambitie</h4>
+        <h3>Ambitie</h3>
         <NavigationDescriptions />
       </div>
       <div className="content">
@@ -24,17 +24,35 @@ export default function Ambition() {
           </div>
           <div className="effect__content">
             <div className="effect__content-positive">
-              <strong> Positive Effects: </strong>
-              • More likely to want you the manager to be positive about player’s or team’s prospects and goals during team talks, season preview and reviews, meetings and conferences.
-              • More likely to have good training progression.
-              • Excellent for tutoring.
+              Positive Effects:
+              <ul>
+                <li>
+                  More likely to want you the manager to be positive about player’s or team’s prospects and goals during team talks, season preview and reviews, meetings and conferences.
+                </li>
+                <li>
+                  More likely to have good training progression.
+                </li>
+                <li>
+                  Excellent for tutoring.
+                </li>
+              </ul>
             </div>
             <div className="effect__content-negative">
               Negative Effects:
-              • Will want higher value contract’s for them personally.
-              • Will want to join a club that has a higher reputation, bigger ambitions at managerial and board level, competes in a higher reputation division or continental competition.
-              • This can also influence player’s decisions when it comes to nationalities when there is dual-citizenship.
-              • Will want club and manager to reflect ambition and goals by signing high-reputation players or spend more money.
+              <ul>
+                <li>
+                  Will want higher value contract’s for them personally.
+                </li>
+                <li>
+                  Will want to join a club that has a higher reputation, bigger ambitions at managerial and board level, competes in a higher reputation division or continental competition.
+                </li>
+                <li>
+                  This can also influence player’s decisions when it comes to nationalities when there is dual-citizenship.
+                </li>
+                <li>
+                  Will want club and manager to reflect ambition and goals by signing high-reputation players or spend more money.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
