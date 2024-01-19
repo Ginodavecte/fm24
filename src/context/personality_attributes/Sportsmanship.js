@@ -4,7 +4,7 @@ import NavigationDescriptions from './NavigationDescriptions'
 export default function Sportsmanship() {
   return (
     <div className="sportsmanship" id="sportsmanship">
-      <div className="title">
+      <div className="navigation-title">
         <h3>Sportsmanship</h3>
         <NavigationDescriptions />
       </div>

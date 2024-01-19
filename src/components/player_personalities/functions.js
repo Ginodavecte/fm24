@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export function skillValueColored(value) {
   const trimmed = value.trim();

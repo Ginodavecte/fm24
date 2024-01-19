@@ -4,7 +4,7 @@ import NavigationDescriptions from './NavigationDescriptions';
 export default function Ambition() {
   return (
     <div className="ambition" id="ambition">
-      <div className="title">
+      <div className="navigation-title">
         <h3>Ambitie</h3>
         <NavigationDescriptions />
       </div>

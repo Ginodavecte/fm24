@@ -4,7 +4,7 @@ import NavigationDescriptions from './NavigationDescriptions'
 export default function Pressure() {
   return (
     <div className="pressure" id="pressure">
-      <div className="title">
+      <div className="navigation-title">
         <h3>Druk</h3>
         <NavigationDescriptions />
       </div>

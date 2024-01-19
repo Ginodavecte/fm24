@@ -4,7 +4,7 @@ import NavigationDescriptions from './NavigationDescriptions'
 export default function Professionalism() {
   return (
     <div className="professionalism" id="proffesionalism">
-      <div className="title">
+      <div className="navigation-title">
         <h3>Professionalism</h3>
         <NavigationDescriptions />
       </div>

@@ -4,7 +4,7 @@ import NavigationDescriptions from './NavigationDescriptions'
 export default function Temperament() {
   return (
     <div className="temperament" id="temperament">
-      <div className="title">
+      <div className="navigation-title">
         <h3>Temperament</h3>
         <NavigationDescriptions />
       </div>

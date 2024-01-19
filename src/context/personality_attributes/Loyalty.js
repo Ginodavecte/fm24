@@ -4,7 +4,7 @@ import NavigationDescriptions from './NavigationDescriptions'
 export default function Loyalty() {
   return (
     <div className="loyalty" id="loyalty">
-      <div className="title">
+      <div className="navigation-title">
         <h3>Loyaliteit</h3>
         <NavigationDescriptions />
       </div>

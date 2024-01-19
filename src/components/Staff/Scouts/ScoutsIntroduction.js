@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ScoutsIntroduction = () => {
+const ScoutsIntroduction = ( {mainClass} ) => {
   return (
-    <div className="scouts__introduction">
+    <div className={`${mainClass}__introduction`}>
       <div className="introduction__title">
         <h3>Introductie</h3>
       </div>

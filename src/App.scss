@@ -29,3 +29,27 @@ h3 {
   padding-bottom: 4px;
 }
 
+.navigation-title{
+  display: flex;
+  justify-content: space-between;
+
+  .navigate-descriptions{
+    & ul {
+      display: flex;
+      & li {
+        list-style: none;
+        & a {
+          text-decoration: none;
+          margin-right: 8px;
+          &:hover {
+            text-decoration: underline;
+          }
+          &:visited{
+            color: #0000EE;
+          }
+        }
+      }
+    }
+  }
+}
+

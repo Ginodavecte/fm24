@@ -7,6 +7,7 @@ import PlayerPersonalities from './components/player_personalities/PlayerPersona
 import ScrollToAnchor from './components/ScrollToAnchor';
 import Scouts from './components/Staff/Scouts/Scouts'
 import Coaches from './components/Staff/Coaches/Coaches';
+import Navigation from './components/Navigation/Navigation';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   return (
     <Router>
       <Header />
+      <Navigation />
       <div className="container">
       <ScrollToAnchor />
         <Routes>

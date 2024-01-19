@@ -4,7 +4,7 @@ import NavigationDescriptions from './NavigationDescriptions'
 export default function Determination() {
   return (
     <div className="determination" id="determination">
-      <div className="title">
+      <div className="navigation-title">
         <h3>Determiatnio</h3>
         <NavigationDescriptions />
       </div>
