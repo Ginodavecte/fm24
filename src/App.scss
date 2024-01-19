@@ -12,5 +12,20 @@ body{
   margin: 0 auto;
 }
 
+.p-component{
+  font-family: $fontFamilyBody;
+  font-size: 15px
+}
 
+.p-datatable {
+  &-tbody > tr > td,
+  &-thead > tr > th {
+    padding: 8px;
+  }
+}
+
+h3 {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 4px;
+}
 

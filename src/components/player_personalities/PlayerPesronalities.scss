@@ -3,12 +3,6 @@
 
 .player-personalities{
 
-
-    h3 {
-        border-bottom: 1px solid #e0e0e0;
-        padding-bottom: 4px;
-    }
-
     &__title{
         display: flex;
         justify-content: space-between;
@@ -56,10 +50,10 @@
             margin-top: 16px;
             margin-bottom: 24px;
         }
-        .p-component{
-            font-family: $fontFamilyBody;
-            font-size: 15px
-        }
+        //.p-component{
+        //    font-family: $fontFamilyBody;
+        //    font-size: 15px
+        //}
         .link-in-table{
             text-decoration: none;
             &:hover{
@@ -67,12 +61,12 @@
             }
         }
 
-        .p-datatable {
-            &-tbody > tr > td,
-            &-thead > tr > th {
-                padding: 8px;
-            }
-        }
+        //.p-datatable {
+        //    &-tbody > tr > td,
+        //    &-thead > tr > th {
+        //        padding: 8px;
+        //    }
+        //}
 
         .skill-value-wrapper {
             display: flex;

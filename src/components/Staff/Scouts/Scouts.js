@@ -1,49 +1,15 @@
-import React, { useEffect, useState } from 'react'
-import api from '../../../api/dbTest';
+import React from 'react';
+import './Scouts.scss';
+import ScoutsTable from './ScoutsTable';
+import ScoutsHeader from './ScoutsHeader'
 
 const Scouts = () => {
-  const [scoutsSkillSet, setScoutsSkillSet] = useState([]);
-
-  const retrieveScoutsSkillSet = async() => {
-    const response = await api.get("/scouts");
-    return response.data;
-  };
-
-  useEffect(() => {
-    const getScoutsSkillSet = async () => {
-      const skillSetObject = await retrieveScoutsSkillSet();
-      if (skillSetObject) setScoutsSkillSet(skillSetObject);
-    };
-
-    getScoutsSkillSet();
-  }, []);
-
-  console.log('scoutsSkillSet ->', scoutsSkillSet)
+  const mainClass = 'scouts';
 
   return (
-    <div className="scouts" id="scouts">
-      <div className="title">
-        <h4>Scouts</h4>
-        {/*<NavigationDescriptions />*/}
-      </div>
-      <div className="description">
-        Belangrijke Eigenschappen
-      </div>
-      <div className="table">
-        <table>
-          <thead>
-          <tr>
-            <th>Eigenschappen</th>
-            <th>Omschrijving</th>
-          </tr>
-          </thead>
-          <tbody>
-          {/*{Object.keys(scoutsSkillSet).map(index => */}
-          {/*  return <tr><td></td></tr>*/}
-          {/*)}*/}
-          </tbody>
-        </table>
-      </div>
+    <div className={ mainClass } id="scouts">
+      <ScoutsHeader mainClass={mainClass} />
+      <ScoutsTable mainClass={mainClass} />
     </div>
   );
 };
