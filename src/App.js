@@ -6,6 +6,7 @@ import Overview from './components/Overview';
 import PlayerPersonalities from './components/player_personalities/PlayerPersonalities';
 import ScrollToAnchor from './components/ScrollToAnchor';
 import Scouts from './components/Staff/Scouts/Scouts'
+import Coaches from './components/Staff/Coaches/Coaches';
 
 
 function App() {
@@ -32,6 +33,12 @@ function App() {
             path="/scouts"
             exact
             element={<Scouts />}
+          />
+
+          <Route
+            path="/coaches"
+            exact
+            element={<Coaches />}
           />
 
         </Routes>
