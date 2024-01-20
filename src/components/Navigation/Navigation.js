@@ -1,10 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Navigation.scss";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
+  const [fixed, setFixed] = useState(false);
+
+  function handleFixed() {
+    const headerHeight = document.querySelector('.header')?.offsetHeight;
+    const navigationHeight = document.querySelector('.navigation')?.offsetHeight;
+    const totalHeight = (headerHeight + navigationHeight) ?? 150;
+
+    if (window.scrollY >= totalHeight) {
+      setFixed(true);
+    } else {
+      setFixed(false);
+    }
+  }
+
+  window.addEventListener('scroll', handleFixed);
   return (
-    <div className="navigation">
+    <nav className={fixed ? 'navigation fixed-nav ' : 'navigation'}>
       <ul>
         <li>
           <Link to={`/player-personalities`}>Speler Persoonlijkheden</Link>
@@ -16,7 +31,7 @@ const Navigation = () => {
           <Link to={`/coaches`}>Coaches</Link>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
