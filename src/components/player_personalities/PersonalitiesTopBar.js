@@ -11,7 +11,7 @@ const PersonalitiesTopBar = ( {mainClass} ) => {
   };
 
   const handleNavigateLink = () => {
-    window.location.href = 'https://www.fmscout.com/a-guide-to-player-personalities-football-manager.html';
+    window.open('https://www.fmscout.com/a-guide-to-player-personalities-football-manager.html');
   }
 
   return (
