@@ -22,6 +22,9 @@ const Navigation = () => {
     <nav className={fixed ? 'navigation fixed-nav ' : 'navigation'}>
       <ul>
         <li>
+          <Link to={`/`}>FM 24 Home</Link>
+        </li>
+        <li>
           <Link to={`/player-personalities`}>Speler Persoonlijkheden</Link>
         </li>
         <li>
