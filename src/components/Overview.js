@@ -4,6 +4,7 @@ import { FaHeadSideVirus } from "react-icons/fa";
 import { HiSearch } from "react-icons/hi";
 import { GrUserManager } from "react-icons/gr";
 import { GiSkills } from "react-icons/gi";
+import { VscReferences } from 'react-icons/vsc';
 
 const Overview = () => {
   return (
@@ -31,6 +32,12 @@ const Overview = () => {
           <Link to="/traits">
             <GiSkills />
             Traits
+          </Link>
+        </li>
+        <li>
+          <Link to="/references">
+            <VscReferences />
+            References
           </Link>
         </li>
       </ul>

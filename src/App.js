@@ -8,6 +8,8 @@ import ScrollToAnchor from './components/ScrollToAnchor';
 import Scouts from './components/Staff/Scouts/Scouts'
 import Coaches from './components/Staff/Coaches/Coaches';
 import Navigation from './components/Navigation/Navigation';
+import Traits from './components/Traits/Traits';
+import References from './components/References/References';
 
 
 function App() {
@@ -43,6 +45,17 @@ function App() {
             element={<Coaches />}
           />
 
+          <Route
+            path="/traits"
+            exact
+            element={<Traits />}
+          />
+
+          <Route
+            path="/references"
+            exact
+            element={<References />}
+          />
 
         </Routes>
       </div>

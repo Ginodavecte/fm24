@@ -36,6 +36,9 @@ const Navigation = () => {
         <li>
           <Link to={`/traits`}>Traits</Link>
         </li>
+        <li>
+          <Link to={`/references`}>References</Link>
+        </li>
       </ul>
     </nav>
   );
