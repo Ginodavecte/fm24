@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import api from '../../api/dbTest';
 import { VscReferences } from 'react-icons/vsc';
 import './References.scss';
+import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 const References = () => {
   const mainClass = 'references';
   let [references, setReferences] = useState([]);
@@ -83,9 +84,9 @@ function ReferencesSubjects(subjects, mainClass) {
                       <p>{source.description ?? 'Geen bron beschrijving'}</p>
                     </div>
                     <div className={`${mainClass}__subject--source-button`}>
-                      <button onClick={window.open(source.source ?? '#', '_blank')}>
-                        {source.sourceDescription ?? 'Geen bron link titel'}
-                      </button>
+                      <a className="button" href={source.source ?? '#'} target="_blank">
+                        <FaExternalLinkSquareAlt /> {source.sourceDescription ?? 'Geen bron link titel'}
+                      </a>
                     </div>
                   </div>
                 ))}

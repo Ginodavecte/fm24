@@ -6,33 +6,25 @@
   &__subjects {
 
     &__subject {
-      //border: 1px solid green;
       margin-bottom: 24px;
 
-      &--header {
-        //border: 1px solid red;
-      }
-
       &--source {
-        //border: 1px solid yellow;
         display: flex;
         > div {
           width: 50%;
         }
 
         &-header {
-          //border: 1px solid blue;
           p {
             font-size: .8rem;
           }
         }
 
         &-button {
-          //border: 1px solid white;
           display: flex;
           justify-content: center;
           align-items: center;
-          button {
+          .button {
             display: flex;
             padding: 12px;
             background-color: rgb(33, 150, 243);
@@ -40,7 +32,11 @@
             border: none;
             cursor: pointer;
             border-radius: 4px;
-            //box-shadow: $boxShadowLink;
+            align-items: center;
+            text-decoration: none;
+            svg {
+              margin-right: 4px;
+            }
             &:hover{
               opacity: .9;
             }

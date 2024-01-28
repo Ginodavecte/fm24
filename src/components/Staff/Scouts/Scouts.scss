@@ -14,21 +14,6 @@
     }
   }
 
-  &__button {
-    & button {
-      padding: 12px;
-      background-color: rgb(33, 150, 243);
-      color: white;
-      border: none;
-      cursor: pointer;
-      border-radius: 4px;
-      display: flex;
-      &:hover{
-        opacity: .9;
-      }
-    }
-  }
-
   .description{
     margin: 0 0 32px 0;
   }
