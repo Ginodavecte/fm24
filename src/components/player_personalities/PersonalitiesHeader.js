@@ -1,12 +1,13 @@
 import React from 'react';
 import PersonalitiesIntroduction from './PersonalitiesIntroduction';
-import PersonalitiesTopBar from './PersonalitiesTopBar';
+import { FaHeadSideVirus } from 'react-icons/fa';
+import TopBar from '../../layout/TopBar';
 
 const PersonalitiesHeader = ({ mainClass }) =>  {
 
   return (
     <div className={`${mainClass}__header`}>
-      <PersonalitiesTopBar mainClass={mainClass}/>
+      <TopBar title="Karakters (Player Personalities)" icon={<FaHeadSideVirus />}/>
       <PersonalitiesIntroduction mainClass={mainClass}/>
     </div>
   );

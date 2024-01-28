@@ -39,6 +39,10 @@ body{
   &-thead > tr > th {
     padding: 8px;
   }
+
+  &-tbody > tr > td > ul {
+    padding-left: 16px;
+  }
 }
 
 h3 {

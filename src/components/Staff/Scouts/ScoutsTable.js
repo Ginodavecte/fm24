@@ -38,6 +38,7 @@ const ScoutsTable = ( {mainClass} ) => {
       : String(updatedScoutsSkillSet[key]),
   }));
 
+
   return (
     <div className={`${mainClass}__table`}>
       <h3>Overzicht eigenschappen</h3>

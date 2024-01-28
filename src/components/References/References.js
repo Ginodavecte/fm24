@@ -3,6 +3,7 @@ import api from '../../api/dbTest';
 import { VscReferences } from 'react-icons/vsc';
 import './References.scss';
 import { FaExternalLinkSquareAlt } from 'react-icons/fa';
+import TopBar from '../../layout/TopBar';
 const References = () => {
   const mainClass = 'references';
   let [references, setReferences] = useState([]);
@@ -40,11 +41,7 @@ const References = () => {
     <div className={mainClass}>
 
       <div className={`${mainClass}__header`}>
-        <div className={`${mainClass}__title`}>
-          <h3>
-            <VscReferences /> References
-          </h3>
-        </div>
+        <TopBar icon={<VscReferences />} title="References" />
         <div className={`${mainClass}__introduction`}>
           <p>{referencesIntroduction}</p>
         </div>

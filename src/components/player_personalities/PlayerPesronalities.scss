@@ -3,18 +3,6 @@
 
 .player-personalities{
 
-    &__title{
-        display: flex;
-        h3 {
-            display: flex;
-            align-items: center;
-            border-bottom: none;
-            svg{
-                margin-right: 8px;
-            }
-        }
-    }
-
     &__introduction {
         margin-bottom: 48px;
         &--body {

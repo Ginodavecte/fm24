@@ -1,11 +1,12 @@
 import React from 'react';
-import CoachesTopBar from './CoachesTopBar';
 import CoachesIntroduction from './CoachesIntroduction';
+import TopBar from '../../../../layout/TopBar';
+import { GrUserManager } from 'react-icons/gr';
 
 const CoachesHeader = ( {mainClass} ) => {
   return (
     <div className={`${mainClass}__header`}>
-      <CoachesTopBar mainClass={mainClass} />
+      <TopBar icon={<GrUserManager />} title="Coaches" />
       <CoachesIntroduction mainClass={mainClass} />
     </div>
   );
