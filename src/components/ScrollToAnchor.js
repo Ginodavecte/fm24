@@ -14,9 +14,11 @@ function ScrollToAnchor() {
 
     if (lastHash.current && document.getElementById(lastHash.current)) {
       setTimeout(() => {
-        document
-          .getElementById(lastHash.current)
-          ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        const lastHashCurrent = document.getElementById(lastHash.current);
+        if(lastHashCurrent) {
+          lastHashCurrent.style.scrollMarginTop = '56px';
+          lastHashCurrent.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
         lastHash.current = '';
       }, 100);
     }

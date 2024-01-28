@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaHeadSideVirus } from "react-icons/fa";
 import { HiSearch } from "react-icons/hi";
 import { GrUserManager } from "react-icons/gr";
+import { GiSkills } from "react-icons/gi";
 
 const Overview = () => {
   return (
@@ -24,6 +25,12 @@ const Overview = () => {
           <Link to="/coaches">
             <GrUserManager />
             Coaches
+          </Link>
+        </li>
+        <li>
+          <Link to="/traits">
+            <GiSkills />
+            Traits
           </Link>
         </li>
       </ul>

@@ -25,13 +25,16 @@ const Navigation = () => {
           <Link to={`/`}>FM 24 Home</Link>
         </li>
         <li>
-          <Link to={`/player-personalities`}>Speler Persoonlijkheden</Link>
+          <Link to={`/player-personalities`}>Karakters</Link>
         </li>
         <li>
           <Link to={`/scouts`}>Scouts</Link>
         </li>
         <li>
           <Link to={`/coaches`}>Coaches</Link>
+        </li>
+        <li>
+          <Link to={`/traits`}>Traits</Link>
         </li>
       </ul>
     </nav>
