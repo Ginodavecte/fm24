@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./Navigation.scss";
 import { Link } from 'react-router-dom';
+import {ReactComponent as FM24LogoSticky} from './header-logo-desktop-sticky-fm21.svg';
 
 const Navigation = () => {
   const [fixed, setFixed] = useState(false);
@@ -21,8 +22,8 @@ const Navigation = () => {
   return (
     <nav className={fixed ? 'navigation fixed-nav ' : 'navigation'}>
       <ul>
-        <li>
-          <Link to={`/`}>FM 24 Home</Link>
+        <li className="sticky-logo">
+          <Link to={`/`}><FM24LogoSticky /></Link>
         </li>
         <li>
           <Link to={`/player-personalities`}>Karakters</Link>

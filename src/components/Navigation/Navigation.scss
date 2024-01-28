@@ -5,6 +5,10 @@
   justify-content: center;
   border-bottom: 1px solid rebeccapurple;
 
+  .sticky-logo {
+    display: none;
+  }
+
   &.fixed-nav {
     position: fixed;
     top: 0;
@@ -14,10 +18,18 @@
     background-color: rebeccapurple;
     transition: .3s ease-in-out;
     color: $colorText;
+
+    .sticky-logo {
+      display: block;
+      //position: absolute;
+      //left: 10%;
+    }
   }
 
   ul {
     display: flex;
+    align-items: center;
+    position: relative;
 
     li {
       list-style: none;
