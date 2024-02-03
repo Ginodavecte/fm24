@@ -1,0 +1,19 @@
+.overview {
+ &__list {
+   &--item {
+     list-style: none;
+     margin-bottom: 8px;
+     a {
+       display: flex;
+       align-items: center;
+       text-decoration: none;
+       &:hover {
+         text-decoration: underline;
+       }
+       svg {
+          margin-right: 4px;
+       }
+     }
+   }
+ }
+}

@@ -5,6 +5,7 @@ import { HiSearch } from "react-icons/hi";
 import { GrUserManager } from "react-icons/gr";
 import { GiSkills } from "react-icons/gi";
 import { VscReferences } from 'react-icons/vsc';
+import "./Overview.scss";
 
 const Overview = () => {
   return (
@@ -13,7 +14,7 @@ const Overview = () => {
         <li className="overview__list--item">
           <Link to="/player-personalities">
             <FaHeadSideVirus />
-            Karaktar (Player Personalities)
+            Karaktars
           </Link>
         </li>
         <li className="overview__list--item">
@@ -22,19 +23,19 @@ const Overview = () => {
             Scouts
           </Link>
         </li>
-        <li>
+        <li className="overview__list--item">
           <Link to="/coaches">
             <GrUserManager />
             Coaches
           </Link>
         </li>
-        <li>
+        <li className="overview__list--item">
           <Link to="/traits">
             <GiSkills />
             Traits
           </Link>
         </li>
-        <li>
+        <li className="overview__list--item">
           <Link to="/references">
             <VscReferences />
             References
