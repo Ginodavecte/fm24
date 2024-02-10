@@ -1,31 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { skillValueColored } from './functions';
-import api from '../../api/dbTest';
 
-const PersonalitiesTable = ({ mainClass }) =>  {
-  const [playerPersonalities, setPlayerPersonalities] = useState([]);
-
-
-  // Retrieve personalityAttributes
-  const retrievePlayerPersonalities = async () => {
-    const response = await api.get("/playerPersonalities");
-    return response.data;
-  };
-
-  // Personal Attributes
-  useEffect(() => {
-    const getAllPlayerPersonalities = async () => {
-      const allPlayerPersonalities = await retrievePlayerPersonalities();
-      if (allPlayerPersonalities) setPlayerPersonalities(allPlayerPersonalities);
-    };
-
-    getAllPlayerPersonalities();
-  },[]);
-
-
+const PersonalitiesTable = ({ mainClass, playerPersonalities }) =>  {
+  // Init variables
   const personalityAttributes = playerPersonalities.personalityAttributes || {};
   const personalities = playerPersonalities.personalities || {};
 
@@ -33,7 +13,7 @@ const PersonalitiesTable = ({ mainClass }) =>  {
     { field: 'index', header: 'Karakter', sortable: true },
     ...Object.keys(personalityAttributes).map((attribute) => ({
       field: attribute,
-      header: attribute,
+      header: personalityAttributes[attribute].title,
       sortable: true,
     })),
   ];

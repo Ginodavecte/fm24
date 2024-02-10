@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import NavigationDescriptions from './NavigationDescriptions';
-import api from '../../api/dbTest';
+import { Link } from 'react-router-dom';
 
 // EffectList component for rendering the positive and negative effects
 const EffectList = ({ effects, className, title }) => (
@@ -14,46 +14,17 @@ const EffectList = ({ effects, className, title }) => (
   </div>
 );
 
-const PersonalitiesCards = ({ mainClass }) => {
-  const [personalityCards, setPersonalityCards] = useState([]);
-  const [allKeys, setAllKeys] = useState([]);
-  const [allSlugs, setAllSlugs] = useState([]);
-
-  // Retrieve personalityCards
-  const retrievePersonalitiesCards = async () => {
-    const response = await api.get("/playerPersonalities");
-    return response.data;
-  };
-
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const allPersonalitiesCards = await retrievePersonalitiesCards();
-        if (allPersonalitiesCards && allPersonalitiesCards.personalityAttributes) {
-          const attributes = allPersonalitiesCards.personalityAttributes;
-          const keysArray = Object.keys(attributes);
-          setPersonalityCards(attributes);
-          setAllKeys(keysArray);
-
-          // Extract slugs from attributes and filter out duplicates
-          const newSlugs = keysArray.map(index => attributes[index].slug);
-          setAllSlugs(prevState => [...new Set([...prevState, ...newSlugs])]);
-        }
-      } catch (error) {
-        console.error('Error fetching personality attributes:', error);
-      }
-    };
-
-    fetchData();
-  }, []);
-
+const PersonalitiesCards = ({ mainClass, personalityCards, allKeys, allSlugs }) => {
 
   // Render a single personality card
   const renderCard = (card, index) => (
     <div id={card.slug} key={index}>
       <div className="navigation-title">
-        <h3>{card.title}</h3>
+        <h3>
+          <Link to="/player-personalities#table" >
+            {card.title}
+          </Link>
+        </h3>
         <NavigationDescriptions titles={allKeys.map(key => personalityCards[key].title)} slugs={allSlugs} />
       </div>
       <div className="content">

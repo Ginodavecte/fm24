@@ -25,16 +25,6 @@ body{
 
 .p-datatable {
 
-  //&-thead th {
-  //  background: lavender;
-  //  //color: $colorText;
-  //}
-  //
-  //&-tbody tr {
-  //  background: lightsteelblue;
-  //  //color: $colorText;
-  //}
-
   &-tbody > tr > td,
   &-thead > tr > th {
     padding: 8px;
@@ -54,6 +44,9 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  a{
+    text-decoration: none;
+  }
 
   .navigate-descriptions{
     & ul {
@@ -67,11 +60,13 @@ h3 {
           padding: 4px 8px;
           border-radius: 4px;
           &:hover {
-            //text-decoration: underline;
             opacity: .8;
           }
         }
       }
+    }
+    @media only screen and (max-width: $sm) {
+      display: none;
     }
   }
 }
