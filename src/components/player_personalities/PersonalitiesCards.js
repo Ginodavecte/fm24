@@ -54,7 +54,7 @@ const PersonalitiesCards = ({ mainClass }) => {
     <div id={card.slug} key={index}>
       <div className="navigation-title">
         <h3>{card.title}</h3>
-        <NavigationDescriptions titles={allKeys} slugs={allSlugs} />
+        <NavigationDescriptions titles={allKeys.map(key => personalityCards[key].title)} slugs={allSlugs} />
       </div>
       <div className="content">
         <div className="definition">
