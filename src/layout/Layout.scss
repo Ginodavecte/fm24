@@ -1,13 +1,25 @@
+@import "../variablesGlobal";
+
 .top-bar {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 40px;
   h2 {
     display: flex;
     align-items: center;
     border-bottom: none;
     svg{
       margin-right: 8px;
+    }
+  }
+}
+
+.content-page-image {
+  text-align: center;
+  @media (max-width: $md) {
+    img {
+      width: 100%;
     }
   }
 }

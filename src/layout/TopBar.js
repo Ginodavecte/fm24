@@ -1,5 +1,5 @@
 import React from 'react';
-import './TopBar.scss';
+import './Layout.scss';
 
 const TopBar = ( {title, icon} ) => {
 
