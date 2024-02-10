@@ -7,7 +7,7 @@ const PersonalitiesHeader = ({ mainClass }) =>  {
 
   return (
     <div className={`${mainClass}__header`}>
-      <TopBar title="Karakters (Player Personalities)" icon={<FaHeadSideVirus />}/>
+      <TopBar title="Karakters" icon={<FaHeadSideVirus />}/>
       <PersonalitiesIntroduction mainClass={mainClass}/>
     </div>
   );

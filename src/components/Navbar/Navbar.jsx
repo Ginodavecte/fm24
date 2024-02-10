@@ -46,7 +46,7 @@ export const Navbar = () => {
       <Henk className="container">
         <Logo fixed={fixed} />
         <StyledFontAwesomeIcon icon={faBars} onClick={() => setActive(!active)} />
-        <NavLinkWrapper active={active}>
+        <NavLinkWrapper active={active} onClick={() => setActive(!active)}>
           {links.map((link) => (
             <StyledNavLink
               activeclassname="active"
