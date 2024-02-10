@@ -74,7 +74,7 @@ const PersonalitiesTable = ({ mainClass }) =>  {
                 <span>{rowData[col.field]}</span>
               ) : (
                 <Link
-                  to={`/player-personalities#${personalityAttributes[col.field]}`}
+                  to={`/player-personalities#${personalityAttributes[col.field].slug}`}
                   className="link-in-table"
                 >
                   {skillValueColored(rowData[col.field], rowData, col.field)}

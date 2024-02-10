@@ -4,9 +4,9 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css';
 import PersonalitiesTable from './PersonalitiesTable';
-import AttributeDescription from '../../context/personality_attributes/AttributeDescription';
 import PersonalitiesHeader from './PersonalitiesHeader';
 import "./PlayerPesronalities.scss";
+import PersonalitiesCards from './PersonalitiesCards';
 
 const PlayerPersonalities = () => {
   const mainClass = 'player-personalities';
@@ -15,7 +15,7 @@ const PlayerPersonalities = () => {
     <div className={mainClass}>
       <PersonalitiesHeader mainClass={ mainClass } />
       <PersonalitiesTable mainClass={ mainClass } />
-      <AttributeDescription mainClass={ mainClass } />
+      <PersonalitiesCards mainClass={ mainClass } />
     </div>
   );
 };
