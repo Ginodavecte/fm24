@@ -1,23 +1,21 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.scss";
-import Header from './layout/Header';
 import Overview from './components/Overview';
 import PlayerPersonalities from './components/player_personalities/PlayerPersonalities';
 import ScrollToAnchor from './components/ScrollToAnchor';
 import Scouts from './components/Staff/Scouts/Scouts'
 import Coaches from './components/Staff/Coaches/Coaches';
-import Navigation from './components/Navigation/Navigation';
 import Traits from './components/Traits/Traits';
 import References from './components/References/References';
+import { Navbar } from './components/Navbar/Navbar';
 
 
 function App() {
 
   return (
     <Router>
-      <Header />
-      <Navigation />
+      <Navbar />
       <div className="container">
       <ScrollToAnchor />
         <Routes>
