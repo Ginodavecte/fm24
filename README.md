@@ -1,2 +1,2 @@
 # FM 24 Personal Guide
-Mijn persoonlijke gids voor de FM 24.
+Mijn persoonlijke gids voor FM 24.
