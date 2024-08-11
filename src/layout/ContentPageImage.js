@@ -4,7 +4,7 @@ const ContentPageImage = ( {imageSrc} ) => {
 
   return (
     <div className="content-page-image">
-      <img src={imageSrc} alt={"page image"} />
+      <img src={imageSrc} alt="" />
     </div>
   );
 }

@@ -81,7 +81,7 @@ function ReferencesSubjects(subjects, mainClass) {
                       <p>{source.description ?? 'Geen bron beschrijving'}</p>
                     </div>
                     <div className={`${mainClass}__subject--source-button`}>
-                      <a className="button" href={source.source ?? '#'} target="_blank">
+                      <a className="button" href={source.source ?? '#'} rel="noreferrer" target="_blank">
                         <FaExternalLinkSquareAlt /> {source.sourceDescription ?? 'Geen bron link titel'}
                       </a>
                     </div>
