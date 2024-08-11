@@ -1,23 +1,21 @@
 import React, { useEffect, useState } from 'react';
-import api from '../../api/dbTest';
 import { VscReferences } from 'react-icons/vsc';
 import './References.scss';
 import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 import TopBar from '../../layout/TopBar';
+import db from '../../database/db.json';
+
+
 const References = () => {
   const mainClass = 'references';
   let [references, setReferences] = useState([]);
   let [referencesIntroduction, setReferencesIntroduction] = useState([]);
 
-  const retrieveReferences = async() => {
-    const response = await api.get("/references");
-    return response.data;
-  };
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const referencesObject = await retrieveReferences();
+        const referencesObject = db.references;
 
         // Retrive the introduction and set it as a title
         if (referencesObject && referencesObject.introduction) {

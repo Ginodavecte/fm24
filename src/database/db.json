@@ -1,0 +1,690 @@
+{
+  "playerPersonalities" : {
+    "personalityAttributes": {
+      "Ambition":
+        {
+          "slug": "ambition",
+          "title":"Ambitie",
+          "description": "Hoe veel en hoe vaak wil een individu succes behalen of nieuwe terreinen betreden?\n            How much and often an individual wants to achieve success or break ground into new territory.",
+          "effects": [
+            {
+              "positive": "Het is waarschijnlijker dat je als manager positief wilt zijn over de vooruitzichten en doelstellingen van de speler of het team tijdens teambesprekingen, seizoensvooruitzichten en beoordelingen, vergaderingen en conferenties.<li>Grotere kans op een goede trainingsprogressie.<li>Uitstekend geschikt voor mentoring (tutoring).",
+              "negative": "Zal voor hen persoonlijk contracten met een hogere waarde willen.<li>Wil lid worden van een club met een hogere reputatie, grotere ambities op management- en bestuursniveau, die deelneemt aan een divisie met een hogere reputatie of continentale competitie.<li>Dit kan ook de beslissingen van spelers beïnvloeden als het gaat om nationaliteiten als er sprake is van een dubbele nationaliteit.<li>Zal willen dat club en manager ambities en doelen weerspiegelen door spelers met een hoge reputatie aan te trekken of meer geld uit te geven."
+            }
+          ]
+        }
+      ,
+      "Determination":
+        {
+          "slug": "determination",
+          "title": "Vastberadenheid",
+          "description": "Weerspiegelt de toewijding van de speler om te slagen en zijn uiterste best te doen, zowel op als buiten het veld."
+        }
+      ,
+      "Loyalty":
+        {
+          "slug": "loyalty",
+          "title": "Loyaliteit",
+          "description": "Hoe sterk de loyaliteit van een speler aan zijn huidige club is.\n            How strong a player’s allegiance to their current club is.",
+          "effects": [
+            {
+              "positive": "Wees meer voorstander van de mening van de manager tijdens interacties.<li>Meer bereid om een lager contract te accepteren bij huidige club.<li>Meer bereid om transfer beslissingen van huidige club te accepteren, of het nu gaat om het kopen of verkopen van andere spelers.",
+              "negative": "Als je probeert een speler met een hoge loyaliteit te kopen, is het moeilijker om zo met de speler of club om te gaan dat ze niet meer willen meedoen.<li>Als je via de media probeert een speler te verontrusten of te overtuigen om te tekenen, is de kans groter dat je geïrriteerd raakt en geen lid wilt worden van je club."
+            }
+          ]
+        }
+      ,
+      "Pressure":
+        {
+          "slug": "pressure",
+          "title": "Drukbestendigheid",
+          "description": "Hoe goed een speler mentaal, fysiek en in het algemeen omgaat met veeleisende of drukvolle situaties en scenario's.",
+          "effects": [
+            {
+              "positive": "Hogere druk rating betekent dat ze minder snel onder druk komen te staan.<li>Zullen minder snel slechte lichaamstaal vertonen in en rond wedstrijden.<li>Minder snel negatief beïnvloed door een negatieve mentale staat.<li>Minder snel reageren op negatieve opmerkingen naar hen en reageert met positieve invloed of prestaties.<li>Minder snel reageren op discipline.<li>Meer kans om te presteren in drukke wedstrijden.",
+              "negative": "Je zult sympathieker of ontspannender moeten zijn tegenover spelers met lage drukwaarden."
+            }
+          ]
+        }
+      ,
+      "Proffesionalism":
+        {
+          "slug": "proffesionalism",
+          "title": "Professionaliteit",
+          "description": "Hoe goed de houding van een speler in het algemeen is. Individueel naar hun carrière, wedstrijdprestaties en trainingsprestaties.",
+          "effects": [
+            {
+              "positive": "Hogere professionaliteit betekent dat ze meer professioneel zijn.<li>Meer kans om hard te werken tijdens trainingen, minder te klagen over werklasten en individuele trainingsbelastingen.<li>Hebben een toegewijde aanpak van fitness, wat betekent dat ze beter herstellen (waarschijnlijk) en op de lange termijn een natuurlijke daling van hun carrière hebben.<li>Hebben een positieve en goede trainingsprogressie.<li>Vertonen een goede lichaamstaal in en rond wedstrijden.<li>Minder vatbaar voor negatieve mentale attributen of staten, zowel individueel als geheel.<li>Meer kans om goed te reageren op managementbeslissingen en de mening van de manager, inclusief tutoring.",
+              "negative": "Geen negatieve effecten."
+            }
+          ]
+        }
+      ,
+      "Sportsmanship":
+        {
+          "slug": "sportsmanship",
+          "title": "Sportiviteit",
+          "description": "Hoe ethisch of ‘sportief’ een speler is.",
+          "effects": [
+            {
+              "positive": "Het is waarschijnlijker dat hij tijdens wedstrijden of na wedstrijden respect heeft voor de oppositie.<li>Ondersteunt de meeste beslissingen en interacties van managers, zoals het begeleiden van een jonge speler.",
+              "negative": "Het is waarschijnlijker dat hij tijdens of na de wedstrijd respectloos is tegenover de oppositie.<li>Het is waarschijnlijker dat hij respectloos is tegenover de beslissingen en interacties van de manager, zoals het begeleiden van een jonge speler."
+            }
+          ]
+        }
+      ,
+      "Temperament":
+        {
+          "slug": "temperament",
+          "title": "Temperament",
+          "description": "Hoe gedisciplineerd het gedrag van een speler is wanneer gebeurtenissen hem in alle aspecten van de simulatie tegenwerken.",
+          "effects": [
+            {
+              "positive": "Hogere temperament betekent minder snel discipline verliezen of gefrustreerd raken.<li>Tijdens wedstrijden zijn ze minder snel agressief of gefrustreerd wanneer je team worstelt of scheidsrechterlijke beslissingen “tegen hen” gaan.<li>Minder snel negatief reageren op kritische of disciplinaire maatregelen.",
+              "negative": "Mensen met een lage temperamentbeoordeling moeten voorzichtig worden behandeld en zijn moeilijk te disciplineren omdat ze negatiever zouden reageren."
+            }
+          ]
+        }
+      ,
+      "Leadership":
+        {
+          "slug": "leadership",
+          "title": "Leiderschap",
+          "description": "Deze eigenschap geeft het talent van een speler weer om invloed uit te oefenen op zijn medespelers. Ploeggenoten scharen zich vaak om hem"
+        }
+    },
+    "personalities": {
+      "1 - Voorbeeldige Burger": {
+        "Ambition": "12 - 20",
+        "Determination": " 14 - 20",
+        "Loyalty": "15 - 20",
+        "Pressure": "14 - 20",
+        "Proffesionalism": "15 - 20",
+        "Sportsmanship": "15 - 20",
+        "Temperament": "15 - 20",
+        "Leadership": " - "
+      },
+      "2 - Perfectionistisch": {
+        "Ambition": "14 - 20",
+        "Determination": " 14 - 20",
+        "Loyalty": " - ",
+        "Pressure": " - ",
+        "Proffesionalism": "14 - 20",
+        "Sportsmanship": " - ",
+        "Temperament": "1 - 9",
+        "Leadership": " - "
+      },
+      "3 - Resoluut": {
+        "Ambition": "5 - 20",
+        "Determination": " 15 - 17",
+        "Loyalty": " - ",
+        "Pressure": "1 - 16",
+        "Proffesionalism": "15 - 20",
+        "Sportsmanship": "12 - 20",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Modelprof": {
+        "Ambition": " - ",
+        "Determination": " - ",
+        "Loyalty": " - ",
+        "Pressure": " - ",
+        "Proffesionalism": "20",
+        "Sportsmanship": " - ",
+        "Temperament": "10 - 20",
+        "Leadership": " - "
+      },
+      "Professioneel": {
+        "Ambition": " - ",
+        "Determination": " - ",
+        "Loyalty": " - ",
+        "Pressure": " - ",
+        "Proffesionalism": "18-20",
+        "Sportsmanship": " - ",
+        "Temperament": "10 - 20",
+        "Leadership": " - "
+      },
+      "Redelijk Professioneel": {
+        "Ambition": " - ",
+        "Determination": "1 - 14",
+        "Loyalty": " - ",
+        "Pressure": " - ",
+        "Proffesionalism": "15-20",
+        "Sportsmanship": " - ",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Bevlogen": {
+        "Ambition": " - ",
+        "Determination": " 1 - 17",
+        "Loyalty": " - ",
+        "Pressure": "15 - 20",
+        "Proffesionalism": "11 - 17",
+        "Sportsmanship": "1 - 14",
+        "Temperament": "10 - 20",
+        "Leadership": " - "
+      },
+      "Gedreven": {
+        "Ambition": "12 - 20",
+        "Determination": " 17 - 20",
+        "Loyalty": " - ",
+        "Pressure": " - ",
+        "Proffesionalism": " - ",
+        "Sportsmanship": " - ",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Vastberaden": {
+        "Ambition": "1 - 11",
+        "Determination": " 17 - 20",
+        "Loyalty": " - ",
+        "Pressure": " - ",
+        "Proffesionalism": " - ",
+        "Sportsmanship": " - ",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Redelijk vastberaden": {
+        "Ambition": " - ",
+        "Determination": " 15 - 17",
+        "Loyalty": " - ",
+        "Pressure": "1 - 16",
+        "Proffesionalism": "1 - 14",
+        "Sportsmanship": "5 - 20",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Wilskrachtig": {
+        "Ambition": " - ",
+        "Determination": " 15 - 17",
+        "Loyalty": " - ",
+        "Pressure": "20",
+        "Proffesionalism": " - ",
+        "Sportsmanship": "5 - 20",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Onverwoestbaar": {
+        "Ambition": "8 - 20",
+        "Determination": " 15 - 17",
+        "Loyalty": " - ",
+        "Pressure": "17 - 20",
+        "Proffesionalism": " - ",
+        "Sportsmanship": "5 - 20",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "(Charismatic Leader)": {
+        "Ambition": " - ",
+        "Determination": " - ",
+        "Loyalty": " - ",
+        "Pressure": " - ",
+        "Proffesionalism": " - ",
+        "Sportsmanship": "18 - 20",
+        "Temperament": "18 - 20",
+        "Leadership": "18-20"
+      },
+      "(Born Leader)": {
+        "Ambition": " - ",
+        "Determination": "20",
+        "Loyalty": " - ",
+        "Pressure": " - ",
+        "Proffesionalism": " - ",
+        "Sportsmanship": " - ",
+        "Temperament": " - ",
+        "Leadership": "20"
+      },
+      "Leider": {
+        "Ambition": " - ",
+        "Determination": " - ",
+        "Loyalty": " - ",
+        "Pressure": " - ",
+        "Proffesionalism": " - ",
+        "Sportsmanship": " - ",
+        "Temperament": " - ",
+        "Leadership": "19-20"
+      },
+      "Heel ambitieus": {
+        "Ambition": "20",
+        "Determination": " 1 - 17",
+        "Loyalty": "1 - 10",
+        "Pressure": " - ",
+        "Proffesionalism": " - ",
+        "Sportsmanship": " - ",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Ambitieus": {
+        "Ambition": "16 - 20",
+        "Determination": " 1 - 17",
+        "Loyalty": "1 - 10",
+        "Pressure": " - ",
+        "Proffesionalism": " - ",
+        "Sportsmanship": " - ",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Redelijk ambitieus": {
+        "Ambition": "15 - 20",
+        "Determination": " 1 - 14",
+        "Loyalty": "1 - 14",
+        "Pressure": " - ",
+        "Proffesionalism": " - ",
+        "Sportsmanship": " - ",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Grillig (Newgen Players Only)": {
+        "Ambition": "15 - 20",
+        "Determination": " 1 - 14",
+        "Loyalty": "1 - 14",
+        "Pressure": " - ",
+        "Proffesionalism": "1 - 14",
+        "Sportsmanship": " - ",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Geldwolf (Newgen Players Only)": {
+        "Ambition": "16 - 20",
+        "Determination": " 1 - 17",
+        "Loyalty": "1 - 3",
+        "Pressure": " - ",
+        "Proffesionalism": " - ",
+        "Sportsmanship": " - ",
+        "Temperament": " - ",
+        "Leadership": " - "
+      }
+    }
+  },
+  "scouts": {
+    "skillSet": {
+      "Spelerskwaliteiten beoordelen": "15+ voor meest accuraat verslag",
+      "Spelerspotienteel beoordelen": "15+ voor meest accuraat verslag",
+      "Aanpassingsvermogen" : "Aanpassingsvermogen Bepaalt hoe snel hij zich zal vestigen in een volkomen onbekende regio of land. Het kan een natie of regio zijn die cultureel heel anders is dan zijn geboortenationaliteit en scoutingkennis. De mate van aanpassingsvermogen zal bepalen hoe snel hij zich zal settelen en u een groot aantal rapporten zal gaan verstrekken.\n\nEen verkenner met 11 aanpassingsvermogen en alleen kennis van Brazilië zal bijvoorbeeld een tijdje nodig hebben om zich in een nieuw land te vestigen en geschikte doelen aan te bevelen als hij de regio van het Midden-Oosten zou verkennen, in tegenstelling tot iemand met 18 aanpassingsvermogen.\n\nOngeacht het aanpassingsvermogen zullen alle scouts uiteindelijk de kennis van een specifiek land of een specifieke regio vergroten. Hoe hoger het niveau, hoe sneller hij scoutrapporten zal leveren, maar een lager aanpassingsvermogen zal langer duren om de opdrachten te voltooien. Het hebben van 3 of meer scouts met een niveau van meer dan 15 in aanpassingsvermogen is essentieel bij het rondreizen door regio's en nieuwe landen. Voor toekomstig gebruik zullen scouts met een hoog aanpassingsvermogen “Roaming-scouts” worden genoemd.",
+      "Vastberadenheid": "Vastberadenheid zal zijn scoutingsfrequentie bepalen; hoe vaak hij rapporteert en hoe snel hij zijn opdrachten zal vervullen. Bijvoorbeeld: een verkenner met 17 vastberadenheid zal veel sneller de hele regio van Midden-Europa volledig verkennen dan een verkenner met 12 vastberadenheid. Hoe snel ze een regio of een land zullen voltooien, zal ook afhangen van het aanpassingsvermogen van het personeel, waar we later dieper op zullen ingaan.\n\nEen goed niveau van vastberadenheid voor een hoofdscout is 15 of meer, maar als je leiding geeft aan een club uit een lagere klasse, is het moeilijk om hoofdscouts met dat hoge niveau van vastberadenheid aan te trekken, dus probeer de limiet op minstens 10 te stellen.",
+      "Tactiek voorkeur": "Zelfde als de tactiek van de club of de hoofdcoach (als je een hoofdscout zoekt). Als je een scout zoekt voor een specifieke tactiek, zoek dan naar een scout met een hoge tactische kennis en een hoge voorkeur voor die tactiek.",
+      "Tactische kennis": "Tactische kennis is handig als je van nauwkeurige rapporten van je volgende tegenstander houdt. Een grotere kennis van de tactieken, gecombineerd met het beoordelen van het spelerspotentieel en het beoordelen van de vaardigheden van spelers, geeft je een beter inzicht in de beoordelingen van je tegenstanders, de belangrijkste bedreigingen en zwakheden enz.\n\nHet niveau van tactische kennis hangt naar mijn mening ook samen met de voorkeursformatie van de scouts, die zo dicht mogelijk bij je eigen voetbalformatie en speelstijl moet liggen.\n\nEr zijn ook enkele scoutingattributen die belangrijk zijn voor de verschillende soorten scouts, waar we het later over zullen hebben. Deze eigenschappen zijn afhankelijk van wat je graag doet bij de (hoofd)scout of het scoutingnetwerk; hun primaire baan en/of opdrachten.",
+      "People management": "People Management is meer een stafattribuut dat gekoppeld is aan coaching en vereist is door assistent-manager en reservemanagers. Maar zoals ik het zie, heeft een hoofdscout van Football Manager manmanagement nodig, aangezien hij verantwoordelijk is voor het opzetten van scoutingsopdrachten voor je netwerk en het beheren van het scoutingteam. Als hoofd scouting moet hij de crew tevreden houden en het hele netwerk organiseren door opdrachten op te zetten die bij de scout passen. Ik heb de neiging om op zoek te gaan naar hoofdverkenners met een minimumniveau van 10 in manmanagement. Het geeft aan dat hij de scoutingopdrachten beter gaat inrichten, waardoor jouw scoutingkennis wellicht vergroot wordt."
+    }
+  },
+  "coaches": {
+    "attributes": {
+      "Aanvallend": {
+        "description": "Het vermogen van de technische staf om zijn expertiseniveau te gebruiken bij het coachen van uw spelers in aanvallend voetbal. Een coach met een goed aanvalsniveau zal competenter zijn en meer interesse hebben in het coachen van aanvallend voetbal. Zal de staf met een hoog niveau van aanvallende coaching, vergeleken met een coach met weinig verdedigende coaching, beter zijn in het trainen van je spelers in aanvalsbewegingen, afwerking, passen en creativiteit.\n\nEen manager met een hoger niveau van aanvalscoaching zal eerder een passende aanvalsaanpak hanteren van wedstrijd tot wedstrijd en kan bepalen hoe waarschijnlijk het is dat bepaalde spelerseigenschappen succesvol zullen zijn onder zijn of haar coaching. Uiteindelijk zal een aanvallende manager of assistent-manager de voorkeur geven aan een meer aanvallende algemene training en kan hij de nadruk leggen op achterkameradvies en spelerevaluaties over een aanvallende intentie.",
+        "trainingground": "Aanvallende coaching is vooral gekoppeld aan tactische en technische coaching. Het personeel zal proberen de eigenschappen van een speler te verbeteren met betrekking tot.",
+        "keyTactical": "Flair, Kalmte, Zonder bal",
+        "keyTechnical": "Afstandschoten, Afwerken, Voorzetten",
+        "outro": ""
+      },
+      "Conditie": {
+        "description": "Het competentieniveau van een technische staf voor het trainen van de fysieke aspecten van het spel van de spelers en het behouden van een goed conditieniveau. Het lijkt erop dat het uithoudingsvermogen van de spelers wordt verbeterd om regelmatig 90 minuten te kunnen spelen – door blessures te voorkomen om de spelers sterker te maken, of door hun behendigheid te verbeteren door zich sneller te verplaatsen in kleine gebieden en lichter op hun voeten te zijn wanneer ze met de bal rennen of in bezit mee. Een goede fitnesscoach zal potentiële problemen beter kunnen herkennen voordat ze zich voordoen tijdens wedstrijden.\n\nEen fitnesscoach is een specialistische rol die ernaar streeft de kracht en snelheid van een speler te verbeteren. Dit betekent dat het personeel niet in aanmerking komt om aan andere aspecten van het spel van een speler te werken dan het verbeteren van zijn natuurlijke conditie en tempo.",
+        "trainingground": "",
+        "keyTactical": "Sprongkracht, Natuurlijke Conditie, Uithoudindsvermogen, Kracht, Inzet",
+        "keyTechnical": "Versnelling, Snelheid, Lenigheid, Evenwicht",
+        "outro": ""
+      },
+      "Mentaal": {
+        "description": "Het niveau van mentale benadering van een coachingstaf is gunstig voor alle algemene coaches. Kan worden omschreven als het niveau van de mentale benadering van de coach, zijn vermogen om de gemoedstoestand van elk individu te observeren en ernaar te handelen en dienovereenkomstig te reageren. Je zou kunnen zeggen dat het zijn vermogen is om de juiste hulp te bieden, vooral bij het beoordelen van de spelers met wie hij werkt. Het is een vaardigheid die vooral belangrijk is bij achterkameradvies.\n\nMentale coaching is gekoppeld aan het disciplineniveau en is een van de subkenmerken om het moreel te behouden en te vergroten. Een coach met een goed niveau van mentale eigenschappen zal flexibeler zijn in het instellen van de trainingsintensiteit en werklast voor je spelers, en zal de vereiste veranderingen aanbrengen in de werklast en het striktheidsniveau van een speler om ervoor te zorgen dat het moreel en het geluk van de specifieke speler zo goed is als nodig is. voor een betere spelersontwikkeling.\n\nDit betekent dat het een waardevolle eigenschap is voor assistent-managers of managers van jeugdteams die verantwoordelijk zijn voor het opzetten van individuele trainingen of wedstrijdtrainingen voor hun afdeling. U kunt een bepaalde staf voor hardlooptraining toewijzen onder;",
+        "trainingground": "Mental coaching is heavily linked to technical coaching as the players will work on the mental pressure and capabilities with being in possession of the ball.",
+        "keyTactical": "Anticipatie, Beslissingen, Inzicht, Teamwork",
+        "keyTechnical": "Dribbelen, Eerste balcontact, Passing, Koppen, Techniek",
+        "outro": "Persoonlijk heb ik de neiging om voor het jeugdteam ten minste één coach met hogere mentale beoordelingen aan te schaffen, omdat ik geloof dat de coach in staat is de spelers voor te bereiden op professioneel eerste elftalvoetbal door hen te laten weten wat er van hen wordt verwacht om het te halen."
+      },
+      "Standaardsituaties": {
+        "description": "",
+        "trainingground": "",
+        "keyTactical": "",
+        "keyTechnical": "",
+        "outro": ""
+      },
+      "Verdedigend": {
+        "description": "Het expertiseniveau van de technische staf op het gebied van het coachen van verdedigend voetbal. Een goed niveau duidt op een hogere competentie in het trainen van je spelers in de verdedigende kant van het spel. Hij zal niet alleen competenter zijn in het coachen ervan, maar ook meer interesse en betere kennis op dat gebied hebben.\n\nManagers of technische staf die verantwoordelijk zijn voor het geven van feedback en het voorbereiden van wedstrijden met een hoger niveau van defensieve coaching zullen zwakker zijn in het geven van advies met betrekking tot het spelen van defensief voetbal en hebben de neiging hun tactiek, training en teamselectie te baseren op een defensieve intentie.\n\nDe aanvallende coaching is in het kort te omschrijven als; Hoe de spelers binnen jouw formatie met elkaar moeten omgaan en zich moeten gedragen als ze balbezit hebben (bijvoorbeeld bewegingen en onvoorspelbaarheid), en wat ermee te doen als de bal zich in het laatste derde deel bevindt.",
+        "trainingground": "Verdedigende coaching is sterk gekoppeld aan tactische en technische coaching en deels tactische kennis.",
+        "keyTactical": "Aggressie, Concentratie, Positie kiezen",
+        "keyTechnical": "Mandekking, Tackelen",
+        "outro": "De verdedigende coaching kan in het kort omschreven worden als; Hoe de spelers binnen jouw formatie met elkaar moeten omgaan en zich moeten gedragen als ze geen balbezit hebben, en hoe ze het doel kunnen beschermen door de juiste positionering en lichaamsvorm te gebruiken om balbezit te winnen."
+      },
+      "Tactisch": {
+        "description": "De expertise van een technische staf op het gebied van het trainen van uw spelers in de tactische kant van het spel. Het tactische stafkenmerk geeft de tactische intelligentie en slimheid van een persoon aan.\n\nEen coach met hoge beoordelingen op het gebied van tactische coaching zal de tactische kant van het spel beter kunnen coachen op effectievere wijze aan de spelers met betrekking tot de gekozen formatie, met als doel de ploeg samen te brengen en een betere interactie en communicatie tussen hen te hebben in wedstrijden. Coaches met een hoger niveau van tactische coaching zullen niet alleen beter zijn in het efficiënter aanleren van het tactische spel, maar ook nauwkeuriger en informatiever advies geven.\n\nHet tactische kenmerk van de technische staf is niet alleen gekoppeld aan tactische kennis, maar is ook belangrijk voor aanvallende coaches en verdedigende coaches. Kortom, dit stafattribuut zal invloed hebben op de manier waarop de spelers communiceren, hoe ze zich onderling gedragen (positionering), de besluitvorming en het lezen van het stuk (anticiperen).\n\nOok als verantwoordelijke voor achterkameradvies op tactisch gebied is jouw tactische coach de logische keuze. U kunt een van uw algemene coaches of assistent-managers kiezen die verantwoordelijk zijn voor het geven van advies op tactische gebieden.",
+        "trainingground": "",
+        "keyTactical": "",
+        "keyTechnical": "",
+        "outro": ""
+      },
+      "Technisch": {
+        "description": "Technisch bepaalt het expertiseniveau van de technische staf wat betreft het trainen van uw spelers in technische vaardigheden; hoe je de bal controleert en bewerkt. Net zo belangrijk als het hebben van tactisch intelligente spelers is het belangrijk om spelers te ontwikkelen die voor de bal kunnen zorgen als ze in balbezit zijn. Dit kan een van de moeilijkste gebieden zijn om te coachen en het kan zijn dat een oud-speler hier bijzonder nuttig is.\n\nDe technische aspecten van coaching omvatten de eerste aanraking van een speler, passen en techniek, afwerkings- en schiettechniek, dribbelen of het nemen van spelhervattingen.\n\nNiet-spelend personeel met een hoog niveau van technische coaching zal aanbevelingen doen met betrekking tot de individuele attribuutfocus voor spelerstraining, evenals de intensiteit van de trainingssessies die ze geven.\n\nOp het oefenterrein;\nTechnische coaching is sterk verbonden met mentale coaching en secundaire coaching van de aanvallende en verdedigende kant van het spel.\n\nHet is belangrijk op te merken dat ondanks dat een speler de tactische vaardigheden heeft om te zien hoe de wedstrijd zich kan ontvouwen en wat er in bepaalde situaties kan gebeuren, de speler de technische vaardigheden nodig heeft om er iets aan te doen. In mijn ogen is de technische coaching net zo belangrijk als de tactische coaching.\n\nOmdat er in de database een groot aantal coaches met hogere beoordelingen op het gebied van technische coaching ontbreekt, is dit een van de gebieden die ik in mijn eigen managementattributen probeer op te nemen, zodra ik een nieuw spel heb opgezet.",
+        "trainingground": "",
+        "keyTactical": "",
+        "keyTechnical": "",
+        "outro": ""
+      }
+    }
+  },
+  "references": {
+    "introduction": "Deze gids is gebaseerd op de informatie die ik heb verzameld uit verschillende bronnen, waaronder de officiële Football Manager-forums, de Football Manager Discord-server, de Football Manager Subreddit en de Football Manager Slack-server. Ik heb ook een aantal van mijn eigen ervaringen en meningen toegevoegd, die ik heb opgedaan tijdens het spelen van Football Manager sinds de release van FM 2005.",
+    "subjects": {
+      "playerPersonalities": {
+        "title": "Karakters",
+        "sources": [
+          {
+            "title": "Guide to Player Personalities on Football Manager",
+            "description": "Alle informatie over de persoonlijkheden van spelers is afkomstig van de onderstaande bron.",
+            "source": "https://www.fmscout.com/a-guide-to-player-personalities-football-manager.html",
+            "sourceDescription": "FM Scout"
+          }
+        ]
+      },
+      "scouts": {
+        "title": "Scouts",
+        "sources": [
+          {
+            "title": "Wonderkids Football Manager 2024",
+            "description": "Overzicht van wonderkids per positie",
+            "source": "https://www.fmscout.com/a-football-manager-2024-wonderkids.html",
+            "sourceDescription": "FM Scout"
+          },
+          {
+            "title": "Football Manager 2024 Scouting Guide",
+            "description": "Gids voor scouting",
+            "source": "https://www.passion4fm.com/how-to-find-best-scouts-football-manager",
+            "sourceDescription": "Passion4FM"
+          }
+        ]
+      },
+      "coaches": {
+        "title": "Coaches",
+        "sources": [
+          {
+            "title": "Football Manager 2024 Coach Calculator",
+            "description": "Coach calculator",
+            "source": "https://fmcalc.com/",
+            "sourceDescription": "FM Calc"
+          },
+          {
+            "title": "Football Manager 2024 Coaches Guide",
+            "description": "Gids voor coaches",
+            "source": "https://www.passion4fm.com/football-manager-best-coaches/",
+            "sourceDescription": "Passion4FM"
+          }
+        ]
+      },
+      "traits": {
+        "title": "Traits - Eigenschappen",
+        "sources": [
+          {
+            "title": "Football Manager 2024 Player Traits Guide",
+            "description": "Youtube video over traits",
+            "source": "https://www.youtube.com/watch?v=TDZBBS4EMt8",
+            "sourceDescription": "Youtube"
+          }
+        ]
+      }
+    }
+  },
+  "traits": {
+    "introduction": "Eigenschappen zijn een belangrijk onderdeel van de ontwikkeling van spelers. Het is belangrijk om te weten welke eigenschappen een speler heeft en welke eigenschappen hij kan ontwikkelen. Hieronder vind je een overzicht van de eigenschappen en wat ze betekenen.",
+    "traits": [
+      {
+        "Avoid_using_weak_foot": {
+          "description": [
+            "Goed voor keepers"
+          ],
+          "position": "GK"
+        }
+      },
+      {
+        "Run_with_ball_down_left/right": {
+          "description": [
+            "Goed voor backs"
+          ],
+          "position": "VR, VL"
+        }
+      },
+      {
+        "Run_ball_past_opponent": {
+          "description": [
+            "Quick, Dribbling"
+          ],
+          "position": "VR, VL"
+        }
+      },
+      {
+        "Simple_passes": {
+          "description": [
+            "Slechte passer en kijken naar tactiek",
+            "Niet goed voor Ball Playing Defenders",
+            "Spelers die bal zo snel mogelijk moeten inleveren"
+          ],
+          "position": "-"
+        }
+      },
+      {
+        "Switching_possession_to_other_side_of_the_pitch": {
+          "description": [
+            "Spelers in de as"
+          ],
+          "position": "CV, CVM, CM"
+        }
+      },
+      {
+        "Want_the_ball_into_his_feet": {
+          "description": [
+            "Spelers die niet constant diep gaan (Silva B, Mahrez, Saka blijkbaar).",
+            "Snel kunnen kappen en draaien, goed voor deep laying forward",
+            "Goed met trying more killer balls often (steekpass trait volgens mij)",
+            "Niet heel veel snelheid",
+            "Techniek, Eerste balcontant, Agility, Balance"
+          ],
+          "position": "LVA, RVA (Misschien meer, CVM, CM, CAM)"
+        }
+      },
+      {
+        "Cross_the_ball_early_whenever_the_opportunity_arises": {
+          "description": [
+            "Als ie goeie voorzet heeft, vision",
+            "Goeie spits met goeie loopacties (movement)"
+          ],
+          "position": "VR, VL"
+        }
+      },
+      {
+        "Long_range_free_kicks": {
+          "description": [
+            "Spreekt voor zich maar wel goed om naar te kijken"
+          ],
+          "position": "Vrije Trap"
+        }
+      },
+      {
+        "More_of_distance_shooting": {
+          "description": [
+            "Goeie trait, schijnt overpowered te zijn",
+            "Goeie afstandschoten",
+            "Techniek"
+          ],
+          "position": "SP, CAM, LVA, RVA, CM"
+        }
+      },
+      {
+        "Lob_the_keeper_when_one_on_one": {
+          "description": [
+            "Techniek, Beslissingen, Anticipatie",
+            "Goeie trait"
+          ],
+          "position": "SP, Aanvallers"
+        }
+      },
+      {
+        "Go_around_the_keeper_when_one_on_one": {
+          "description": [
+            "Gaat er niet echt omheen maar meer dat ie betere schiet kans creëert",
+            "Goed dribbelen en de rest"
+          ],
+          "position": "SP, Aanvallers"
+        }
+      },
+      {
+        "Blast_the_ball_into_the_net": {
+          "description": [
+            "Twijfel trait"
+          ],
+          "position": "SP, Aanvallers"
+        }
+      },
+      {
+        "Place_the_shots_in_the_corner_of_the_net": {
+          "description": [
+            "Goed afwerken, Beslissingen, Hoge techniek",
+            "Redelijk overpowered"
+          ],
+          "position": "SP, Aanvallers"
+        }
+      },
+      {
+        "Riffle_free_kicks": {
+          "description": [
+            "Spreekt voor zichzelf",
+            "Wel goeie in combinatie met vaker vrije trappen proberen van grotere afstand"
+          ],
+          "position": "Vrije Trap"
+        }
+      },
+      {
+        "Throw_himself_into_tackles": {
+          "description": [
+            "Creëert mogelijk meer overtredingen",
+            "Goed voor counters",
+            "Pas op met hoge agressie en in scout/training rapport die ene kijken"
+          ],
+          "position": "-"
+        }
+      },
+      {
+        "Stay_on_his_feet_when_tackling": {
+          "description": [
+            "Als ie niet goed is in mandekken of tackelen",
+            "Stick to position"
+          ],
+          "position": "-"
+        }
+      },
+      {
+        "Marking_tightly": {
+          "description": [
+            "Heel goed voor full backs",
+            "Kom je 2x tegen als aanvaller, goed fysiek nodig"
+          ],
+          "position": "VR, VL"
+        }
+      },
+      {
+        "Bring_the_ball_out_of_defence": {
+          "description": [
+            "Heel goed voor centrale verdedigers, Ball-playing defenders",
+            "Je lokt tegenstanders om een vrije man te creëren"
+          ],
+          "position": "CV"
+        }
+      },
+      {
+        "Look_for_pass_rather_than_attempting_to_score": {
+          "description": [
+            "Als ie slecht kan afwerken of afstandschieten",
+            "Goeie passer",
+            "Goeie trait",
+            "Vermindert overbodige schoten op doel",
+            "Kan betere kansen creëren"
+          ],
+          "position": "Verdedigend ingestelde spelers"
+        }
+      },
+      {
+        "Tries_first_time_shots": {
+          "description": [
+            "Spitsen met goeie techniek, beslissings en anticipatie",
+            "Sneller dan de keeper zijn"
+          ],
+          "position": "SP"
+        }
+      },
+      {
+        "Tries_to_play_the_ball_out_of_trouble": {
+          "description": [
+            "Goed voor taktiek met veel balbezit en weinig lange passes",
+            "Goed dribbelen"
+          ],
+          "position": "-"
+        }
+      },
+      {
+        "Hugs_line": {
+          "description": [
+            "Goed voor buitenspelers",
+            "Goed voor snelle spelers",
+            "Creëert meer ruimte voor de aanvallende spelers",
+            "Creëert afspeelmogelijkheden voor intensief positiespel (spelen op balbezit)"
+          ],
+          "position": "VL, VR, LVA, RVA"
+        }
+      },
+      {
+        "Get Forward Whenever Possible": {
+          "description": [
+            "Goed voor backs",
+            "Willen altijd mee naar voren",
+            "Houden het breed en creëeren extra aanvallende opties",
+            "Aanvallende intenties kan lijden tot meer dynamische en vloeibare aanvallen"
+          ],
+          "position": "VL, VR"
+        }
+      },
+      {
+        "Tries long range passes": {
+          "description": [
+            "Ball-playing defenders"
+          ],
+          "position": "-"
+        }
+      },
+      {
+        "Dictates Tempo": {
+          "description": [
+            "Goed voor middenvelders, spelmakers",
+            "Vergroot de kans dat de speler de leiding neemt over situaties op het middenveld",
+            "Afhankelijk van hoe goed hij het spel/situatie leest, zal de speler het tempo vertragen of verhogen in verschillende fasen van de wedstrijd.",
+            "Dit betekent dat de speler vaak de tactische instructies van de manager over het tempo negeert en zijn eigen oordeel gebruikt.",
+            "Spelers die het tempo dicteren, beschikken over een grote spelintelligentie en kunnen het spel goed lezen.",
+            "Zijn vermogen om de tegenstander te beoordelen, helpt hem het spel in het voordeel van het team te vormen, waarbij hij gebruik maakt van zijn capaciteiten.",
+            "Ze worden beschouwd als de leider van het middenveld en beschikken over superieure vaardigheden op het gebied van balbezit en distributie.",
+            "Helpt het team zich aan te passen aan de tactieken van de tegenstander",
+            "Voegt elementen van onvoorspelbaarheid toe aan het stuk",
+            "Helpt de speler de controle over de strijd op het middenveld over te nemen"
+          ],
+          "position": "CVM, CM"
+        }
+      }
+    ]
+  },
+  "internalLinks": [
+    {
+      "page": "Karakters",
+      "href": "/player-personalities"
+    },
+    {
+      "page": "Scouts",
+      "href": "/scouts"
+    },
+    {
+      "page": "Coaches",
+      "href": "/coaches"
+    },
+    {
+      "page": "Traits",
+      "href": "/traits"
+    },
+    {
+      "page": "Referenties",
+      "href": "/references"
+    }
+  ]
+}

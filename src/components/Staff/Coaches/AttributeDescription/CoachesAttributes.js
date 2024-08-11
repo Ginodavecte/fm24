@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import api from '../../../../api/dbTest';
+import db from '../../../../database/db.json';
 import CoachesAttributeNavigation from './CoachesAttributeNavigation';
 
 const CoachesAttributeDescription = ({ mainClass }) => {
@@ -7,15 +7,11 @@ const CoachesAttributeDescription = ({ mainClass }) => {
   const [coachesData, setCoachesData] = useState([]);
   const [allKeys, setAllKeys] = useState([]);
 
-  const retrieveCoachAttributes = async () => {
-    const response = await api.get("/coaches");
-    return response.data;
-  };
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const coachAttributesObject = await retrieveCoachAttributes();
+        const coachAttributesObject = db.coaches;
         if (coachAttributesObject && coachAttributesObject.attributes) {
           setCoachAttributes(coachAttributesObject.attributes);
         }

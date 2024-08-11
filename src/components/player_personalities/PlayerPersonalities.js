@@ -7,7 +7,7 @@ import PersonalitiesTable from './PersonalitiesTable';
 import PersonalitiesHeader from './PersonalitiesHeader';
 import "./PlayerPesronalities.scss";
 import PersonalitiesCards from './PersonalitiesCards';
-import api from '../../api/dbTest';
+import db from '../../database/db.json';
 
 const PlayerPersonalities = () => {
   const mainClass = 'player-personalities';
@@ -16,17 +16,10 @@ const PlayerPersonalities = () => {
   const [allKeys, setAllKeys] = useState([]);
   const [allSlugs, setAllSlugs] = useState([]);
 
-  // Retrieve personalityCards
-  const retrievePersonalitiesCards = async () => {
-    const response = await api.get("/playerPersonalities");
-    return response.data;
-  };
-
-
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const allPersonalitiesCards = await retrievePersonalitiesCards();
+        const allPersonalitiesCards = db.playerPersonalities;
         if (allPersonalitiesCards && allPersonalitiesCards.personalityAttributes) {
           const attributes = allPersonalitiesCards.personalityAttributes;
           const keysArray = Object.keys(attributes);
