@@ -1,7 +1,7 @@
 {
   "name": "fm24",
   "version": "0.1.0",
-  "homepage": "https://Ginodavecte.github.io/fm24",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
