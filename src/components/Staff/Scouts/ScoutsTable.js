@@ -1,19 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import api from '../../../api/dbTest';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
+import db from '../../../database/db.json';
 
 const ScoutsTable = ( {mainClass} ) => {
   let [scoutsSkillSet, setScoutsSkillSet] = useState([]);
 
-  const retrieveScoutsSkillSet = async() => {
-    const response = await api.get("/scouts");
-    return response.data;
-  };
 
   useEffect(() => {
     const getScoutsSkillSet = async () => {
-      const skillSetObject = await retrieveScoutsSkillSet();
+      const skillSetObject = db.scouts;
       if (skillSetObject) setScoutsSkillSet(skillSetObject);
     };
 

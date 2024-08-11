@@ -1,22 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import TraitsHeader from './TraitsHeader';
-import api from '../../api/dbTest';
 import TraitsTable from './TraitsTable';
+import db from '../../database/db.json';
 
 const Traits = () => {
   const mainClass = 'traits';
   let [traits, setTraits] = useState([]);
   let [traitsIntroduction, setTraitsIntroduction] = useState([]);
 
-  const retrieveTraits = async() => {
-    const response = await api.get("/traits");
-    return response.data;
-  };
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const traitsObject = await retrieveTraits();
+        const traitsObject = db.traits;
 
         // Retrive the introduction and set it as a title
         if (traitsObject && traitsObject.introduction) {

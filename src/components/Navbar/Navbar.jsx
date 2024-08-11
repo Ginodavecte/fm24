@@ -8,7 +8,7 @@ import {
   StyledFontAwesomeIcon,
 } from "./Navbar.styled";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import api from "../../api/dbTest";
+import db from "../../database/db.json";
 import "./Navbar.scss";
 
 export const Navbar = () => {
@@ -18,8 +18,7 @@ export const Navbar = () => {
 
   const retrieveLinks = async () => {
     try {
-      const response = await api.get('/internalLinks');
-      if(response?.data.length > 0) setLinks(response.data);
+      return setLinks(db.internalLinks);
     } catch (error) {
       console.error('Error fetching internal links:', error);
     }
