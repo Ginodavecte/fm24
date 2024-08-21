@@ -9,6 +9,8 @@ import Coaches from './components/Staff/Coaches/Coaches';
 import Traits from './components/Traits/Traits';
 import References from './components/References/References';
 import { Navbar } from './components/Navbar/Navbar';
+import Physios from './components/Staff/Physios/Physios';
+import Footer from './layout/Footer';
 
 
 function App() {
@@ -44,6 +46,12 @@ function App() {
           />
 
           <Route
+            path="/fysios"
+            exact
+            element={<Physios />}
+          />
+
+          <Route
             path="/traits"
             exact
             element={<Traits />}
@@ -57,6 +65,7 @@ function App() {
 
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }

@@ -7,6 +7,7 @@ const md = 768;
 const LogoImg = styled.img`
   align-self: start;
   cursor: pointer;
+  border-radius: 0;  
 `;
 
 const NavbarWrapper = styled.nav`
