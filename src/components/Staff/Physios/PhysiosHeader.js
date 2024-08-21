@@ -3,7 +3,7 @@ import PhysiosIntroduction from './PhysiosIntroduction';
 import { FaBriefcaseMedical } from "react-icons/fa";
 import TopBar from '../../../layout/TopBar';
 import pageImage from './physios.png';
-import ContentPageImage from '../../../layout/ContentPageImage'
+import ContentPageImage from '../../../layout/ContentPageImage';
 
 const PhysiosHeader = ( {mainClass} ) => {
   return (

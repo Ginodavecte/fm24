@@ -1,7 +1,7 @@
 import React from 'react';
 import './Layout.scss';
 
-const Footer = ( {title, icon} ) => {
+const Footer = () => {
 
   return (
     <div className="footer">

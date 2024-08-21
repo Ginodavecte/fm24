@@ -10,7 +10,7 @@ import Traits from './components/Traits/Traits';
 import References from './components/References/References';
 import { Navbar } from './components/Navbar/Navbar';
 import Physios from './components/Staff/Physios/Physios';
-import Footer from './layout/Footer'
+import Footer from './layout/Footer';
 
 
 function App() {
