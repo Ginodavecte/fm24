@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import { FaHeadSideVirus } from "react-icons/fa";
+import { FaBriefcaseMedical, FaHeadSideVirus } from 'react-icons/fa'
 import { HiSearch } from "react-icons/hi";
 import { GrUserManager } from "react-icons/gr";
 import { GiSkills } from "react-icons/gi";
@@ -13,31 +13,37 @@ const Overview = () => {
       <ul className="overview__list">
         <li className="overview__list--item">
           <Link to="/player-personalities">
-            <FaHeadSideVirus />
-            Karaktars
+            <FaHeadSideVirus/>
+            Karakters
           </Link>
         </li>
         <li className="overview__list--item">
           <Link to="/scouts">
-            <HiSearch />
+            <HiSearch/>
             Scouts
           </Link>
         </li>
         <li className="overview__list--item">
           <Link to="/coaches">
-            <GrUserManager />
+            <GrUserManager/>
             Coaches
           </Link>
         </li>
         <li className="overview__list--item">
           <Link to="/traits">
-            <GiSkills />
+            <GiSkills/>
             Traits
           </Link>
         </li>
         <li className="overview__list--item">
+          <Link to="/fysios">
+            <FaBriefcaseMedical />
+            Fysios
+          </Link>
+        </li>
+        <li className="overview__list--item">
           <Link to="/references">
-            <VscReferences />
+            <VscReferences/>
             References
           </Link>
         </li>
