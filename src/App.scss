@@ -38,6 +38,10 @@ body{
   a:visited{
     color: var(--colorText) !important;
   }
+
+  ul {
+    padding-left: 0;
+  }
 }
 
 .container{

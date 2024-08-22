@@ -41,6 +41,15 @@
     display: flex;
     ul {
       list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      a {
+        text-decoration: none;
+        &:hover {
+          opacity: .8;
+        }
+      }
     }
   }
 }
