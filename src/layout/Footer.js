@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="footer__title">
-          Referenties
+          Quick Links
         </div>
         <div className="footer__content">
           <ul>
