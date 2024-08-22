@@ -22,7 +22,6 @@ const Henk = styled.nav`
   justify-content: space-between;
   align-items: center;
   background: var(--fmThemePurpleColor);
-  box-shadow: var(--fmThemePurpleBoxShadow);
   border-bottom: var(--fmThemePurpleBorder);
   padding: 16px;
   position: relative;
