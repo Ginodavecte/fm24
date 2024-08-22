@@ -34,12 +34,10 @@
             display: flex;
         }
 
-        .rating-color-0-5 { color: red; }
-        .rating-color-6-10 { color: orange; }
-        .rating-color-11-15 { color: limegreen; }
-        .rating-color-16-20 { color: green; }
-        .highlighted-row { background-color: #e2f0ff; }
-
+        .rating-color-0-5 { color: #a5a5a6; }
+        .rating-color-6-10 { color: #fff8ee; }
+        .rating-color-11-15 { color: #eff33b; }
+        .rating-color-16-20 { color: #0aff6c; }
     }
 
     &__descriptions {

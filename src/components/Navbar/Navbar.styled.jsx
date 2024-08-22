@@ -11,7 +11,9 @@ const LogoImg = styled.img`
 `;
 
 const NavbarWrapper = styled.nav`
-  background: rebeccapurple;
+  background: #3d1c6e;
+  border-bottom: 1px solid rgba(0,0,0,.6);
+  box-shadow: 0 0 20px rgba(0,0,0,.4);
 `;
 
 const Henk = styled.nav`
@@ -19,7 +21,9 @@ const Henk = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rebeccapurple;
+  background: #3d1c6e;
+  box-shadow: 0 0 20px rgba(0,0,0,.4);
+  border-bottom: 1px solid rgba(0,0,0,.6);
   padding: 16px;
   position: relative;
   @media (max-width: ${md}px) {

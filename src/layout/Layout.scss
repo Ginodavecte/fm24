@@ -25,7 +25,24 @@
 }
 
 .footer {
-  height: 48px;
   margin-top: 48px;
-  background-color: $colorBackground;
+  background-color: $fmThemePurpleColor;
+  box-shadow: $fmThemePurpleBoxShadow;
+  border-top: 1px solid rgba(0,0,0,.6);
+  padding: 24px 0 48px;
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: $colorText;
+  }
+
+  &__content {
+    display: flex;
+    ul {
+      list-style-type: none;
+    }
+  }
 }

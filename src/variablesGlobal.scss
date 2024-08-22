@@ -3,9 +3,15 @@ $fontFamilyTitle: "GT America Extended Black","Arial Black","Arial Bold",sans-se
 $fontFamilyBody: "Montserrat","Arial Black","Arial Bold",sans-serif;
 
 // Colors
-$colorBackground: #494D5F;
-$colorText: ghostwhite;
-$fmThemePurple: rebeccapurple;
+$colorBackground: #232224;
+$colorText: #fffcfc;
+$secondaryColor: #a0a0a2;
+$fmThemePurpleColor: #3d1c6e;
+$fmThemePurpleBoxShadow: 0 0 20px rgba(0,0,0,.4);
+$fmThemePurpleBorder: 1px solid rgba(0,0,0,.6);
+$fmThemeOrangeColor: #efa528;
+
+$fmTableBackgroundColor: #262627;
 
 // Box shadows
 $boxShadowCards: 0px 1px 2px 0px rgba(105, 51, 153,0.7),

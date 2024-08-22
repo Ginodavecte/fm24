@@ -34,11 +34,63 @@ body{
   &-tbody > tr > td > ul {
     padding-left: 16px;
   }
+
+  &-thead > tr > th {
+    background: $fmTableBackgroundColor;
+    color: $fmThemeOrangeColor;
+  }
+
+  &-tbody > tr {
+    background: $fmTableBackgroundColor;
+    color: $colorText;
+
+    &:nth-child(even) {
+      background-color: $colorBackground;
+    }
+
+    &:hover {
+      background: #333132;
+      opacity: .8;
+    }
+
+  }
+
+  &-tbody > tr > td {
+    border-bottom: none;
+  }
+
+  &-tbody > tr > td:not(:first-child) {
+    color: $secondaryColor;
+  }
 }
+
+.p-datatable-wrapper {
+  cursor: grab;
+  &:active {
+    cursor: grabbing;
+  }
+  &::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+      background-color: $secondaryColor;
+      border-radius: 16px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+      background-color: #8b8b8d;
+  }
+}
+
+
 
 h3 {
   border-bottom: 1px solid #e0e0e0;
   padding-bottom: 4px;
+  color: $fmThemeOrangeColor;
 }
 
 .navigation-title{
