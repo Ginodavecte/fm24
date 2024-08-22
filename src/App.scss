@@ -1,13 +1,42 @@
-@import "variablesGlobal";
+:root {
+
+  // Font Family
+  --fontFamilyBody: "Montserrat","Arial Black","Arial Bold",sans-serif;
+  --fontFamilyTitle: "GT America Extended Black","Arial Black","Arial Bold",sans-serif;
+
+  // Colors
+  --colorBackground: #232224;
+  --colorText: #fffcfc;
+  --secondaryColor: #a0a0a2;
+  --fmThemePurpleColor: #3d1c6e;
+  --fmThemePurpleBoxShadow: 0 0 20px rgba(0,0,0,.4);
+  --fmThemePurpleBorder: 1px solid rgba(0,0,0,.6);
+  --fmThemeOrangeColor: #efa528;
+
+  --fmTableBackgroundColor: #262627;
+
+  // Buttons
+  --fmButtonBackgroundColor: rgb(33, 150, 243);
+
+  // Box shadows
+  --boxShadowCards: 0 0 10px rgba(219, 217, 232, 0.5);
+  --boxShadowLink: 0px 4px 8px 0px rgba(239, 165, 40, 1);
+
+  // Breakpoints
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1200px;
+}
 
 body{
   margin: 0;
-  font-family: $fontFamilyBody;
-  background-color:$colorBackground;
-  color: $colorText;
+  font-family: var(--fontFamilyBody), serif;
+  background-color:var(--colorBackground);
+  color: var(--colorText);
   a,
   a:visited{
-    color: $colorText !important;
+    color: var(--colorText) !important;
   }
 }
 
@@ -20,7 +49,7 @@ body{
 }
 
 .p-component{
-  font-family: $fontFamilyBody;
+  font-family: var(--fontFamilyBody), serif;
   font-size: 15px
 }
 
@@ -36,16 +65,16 @@ body{
   }
 
   &-thead > tr > th {
-    background: $fmTableBackgroundColor;
-    color: $fmThemeOrangeColor;
+    background: var(--fmTableBackgroundColor);
+    color:var(--fmThemeOrangeColor);
   }
 
   &-tbody > tr {
-    background: $fmTableBackgroundColor;
-    color: $colorText;
+    background: var(--fmTableBackgroundColor);
+    color: var(--colorText);
 
     &:nth-child(even) {
-      background-color: $colorBackground;
+      background-color: var(--colorBackground);
     }
 
     &:hover {
@@ -60,7 +89,7 @@ body{
   }
 
   &-tbody > tr > td:not(:first-child) {
-    color: $secondaryColor;
+    color: var(--secondaryColor);
   }
 }
 
@@ -77,7 +106,7 @@ body{
     background: transparent;
   }
   &::-webkit-scrollbar-thumb {
-      background-color: $secondaryColor;
+      background-color: var(--secondaryColor);
       border-radius: 16px;
   }
   &::-webkit-scrollbar-thumb:hover {
@@ -90,7 +119,7 @@ body{
 h3 {
   border-bottom: 1px solid #e0e0e0;
   padding-bottom: 4px;
-  color: $fmThemeOrangeColor;
+  color: var(--fmThemeOrangeColor);
 }
 
 .navigation-title{
@@ -109,16 +138,17 @@ h3 {
         & a {
           text-decoration: none;
           margin-right: 8px;
-          box-shadow: $boxShadowLink;
+          box-shadow: var(--boxShadowLink);
           padding: 4px 8px;
           border-radius: 4px;
+          color: var(--fmThemeOrangeColor) !important;
           &:hover {
             opacity: .8;
           }
         }
       }
     }
-    @media only screen and (max-width: $sm) {
+    @media only screen and (max-width: var(--sm)) {
       display: none;
     }
   }
