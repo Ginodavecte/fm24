@@ -11,7 +11,9 @@ const LogoImg = styled.img`
 `;
 
 const NavbarWrapper = styled.nav`
-  background: rebeccapurple;
+  background: var(--fmThemePurpleColor);
+  border-bottom: var(--fmThemePurpleBorder);
+  box-shadow: var(--fmThemePurpleBoxShadow);
 `;
 
 const Henk = styled.nav`
@@ -19,7 +21,8 @@ const Henk = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rebeccapurple;
+  background: var(--fmThemePurpleColor);
+  border-bottom: var(--fmThemePurpleBorder);
   padding: 16px;
   position: relative;
   @media (max-width: ${md}px) {
@@ -41,7 +44,7 @@ const NavLinkWrapper = styled.div`
 const StyledNavLink = styled(NavLink)`
   text-decoration: none;
   transition: 0.2s;
-  color: white;
+  color: var(--colorText);
 
   &:not(:first-child) {
     margin-left: 2rem;
@@ -61,7 +64,7 @@ const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
   position: absolute;
   right: 20px;
   top: 21px;
-  color: white;
+  color: var(--colorText);
   font-size: 1.8rem;
   cursor: pointer;
   @media (max-width: ${md}px){
