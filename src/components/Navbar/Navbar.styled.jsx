@@ -29,6 +29,9 @@ const Henk = styled.nav`
     flex-direction: column;
     padding: 1rem;
   }
+  .active {
+    color: var(--fmThemeOrangeColor) !important;
+  }
 `;
 
 const NavLinkWrapper = styled.div`
