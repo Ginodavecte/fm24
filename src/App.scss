@@ -30,8 +30,21 @@ $md: 768;
 $lg: 992;
 $xl: 1200;
 
-body{
+html, body {
+  height: 100%;
   margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+body{
   font-family: var(--fontFamilyBody), serif;
   background-color:var(--colorBackground);
   color: var(--colorText);
@@ -49,8 +62,8 @@ body{
   padding: 0 16px;
   max-width: 1400px;
   display: block;
-  margin: 0 auto;
   transition: all 0.35s ease;
+  flex: 1;
 }
 
 .p-component{

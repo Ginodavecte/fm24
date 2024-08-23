@@ -8,3 +8,11 @@
 .extra-div-flexbox-balance {
   width: 57px;
 }
+
+nav {
+  a {
+    &:hover {
+      color: var(--fmThemeOrangeColor) !important;
+    }
+  }
+}
