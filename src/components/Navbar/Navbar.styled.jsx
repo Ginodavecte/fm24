@@ -72,7 +72,6 @@ const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
   cursor: pointer;
   @media (max-width: ${md}px){
     display: block;
-    font-size: 40px;  
   };
 `;
 
