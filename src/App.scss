@@ -146,6 +146,7 @@ h4 {
   .navigate-descriptions{
     & ul {
       display: flex;
+      padding-left: 32px;
       & li {
         list-style: none;
         & a {
