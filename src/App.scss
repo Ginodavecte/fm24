@@ -22,12 +22,13 @@
   --boxShadowCards: 0 0 10px rgba(219, 217, 232, 0.5);
   --boxShadowLink: 0px 4px 8px 0px rgba(239, 165, 40, 1);
 
-  // Breakpoints
-  --sm: 576px;
-  --md: 768px;
-  --lg: 992px;
-  --xl: 1200px;
 }
+
+// Breakpoints
+$sm: 576;
+$md: 768;
+$lg: 992;
+$xl: 1200;
 
 body{
   margin: 0;
@@ -160,7 +161,7 @@ h4 {
         }
       }
     }
-    @media only screen and (max-width: var(--sm)) {
+    @media only screen and (max-width: #{$sm}px) {
       display: none;
     }
   }
