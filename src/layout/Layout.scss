@@ -10,12 +10,16 @@
     svg{
       margin-right: 8px;
     }
+    @media (max-width: 768px) {
+      font-size: 48px;
+      margin: 40px 0;
+    }
   }
 }
 
 .content-page-image {
   text-align: center;
-  @media (max-width: var(--md)) {
+  @media (max-width: 768px) {
     img {
       width: 100%;
     }
