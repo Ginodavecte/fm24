@@ -1,4 +1,5 @@
 .overview {
+  width: calc(100vw - 32px);
  &__list {
    &--item {
      list-style: none;
