@@ -66,6 +66,12 @@ body{
   flex: 1;
 }
 
+@media screen and (min-width: #{$xl}px) {
+  .container {
+    margin: 0 auto;
+  }
+}
+
 .p-component{
   font-family: var(--fontFamilyBody), serif;
   font-size: 15px
