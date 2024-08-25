@@ -425,7 +425,7 @@
     "introduction": "Eigenschappen zijn een belangrijk onderdeel van de ontwikkeling van spelers. Het is belangrijk om te weten welke eigenschappen een speler heeft en welke eigenschappen hij kan ontwikkelen. Hieronder vind je een overzicht van de eigenschappen en wat ze betekenen.",
     "traits": [
       {
-        "Avoid_using_weak_foot": {
+        "Mijdt_gebruik_zwakker_been": {
           "description": [
             "Goed voor keepers"
           ],
@@ -433,7 +433,7 @@
         }
       },
       {
-        "Run_with_ball_down_left/right": {
+        "Rent_met_bal_langs_linker/rechter_flank": {
           "description": [
             "Goed voor backs"
           ],
@@ -441,7 +441,7 @@
         }
       },
       {
-        "Run_ball_past_opponent": {
+        "Tikt_ballen_voorbij_tegenstander": {
           "description": [
             "Quick, Dribbling"
           ],
@@ -459,27 +459,30 @@
         }
       },
       {
-        "Switching_possession_to_other_side_of_the_pitch": {
+        "Verplaats_bal_naar_vleugels": {
           "description": [
-            "Spelers in de as"
+            "Spelers in de as",
+            "Goeie trait (dacht ik, begin Bordeaux)",
+            "In gesprek met speler staat ie als, meer crosspasses geven"
           ],
           "position": "CV, CVM, CM"
         }
       },
       {
-        "Want_the_ball_into_his_feet": {
+        "Wordt_graag_in_de_voeten_aangespeeld": {
           "description": [
             "Spelers die niet constant diep gaan (Silva B, Mahrez, Saka blijkbaar).",
             "Snel kunnen kappen en draaien, goed voor deep laying forward",
             "Goed met trying more killer balls often (steekpass trait volgens mij)",
             "Niet heel veel snelheid",
-            "Techniek, Eerste balcontant, Agility, Balance"
+            "Techniek, Eerste balcontant, Agility, Balance",
+            "In gesprek met de speler staat ie onder Passing"
           ],
           "position": "LVA, RVA (Misschien meer, CVM, CM, CAM)"
         }
       },
       {
-        "Cross_the_ball_early_whenever_the_opportunity_arises": {
+        "Geeft_vroege_voorzetten": {
           "description": [
             "Als ie goeie voorzet heeft, vision",
             "Goeie spits met goeie loopacties (movement)"
@@ -569,7 +572,7 @@
         }
       },
       {
-        "Marking_tightly": {
+        "Dekt_tegenstander_kort": {
           "description": [
             "Heel goed voor full backs",
             "Kom je 2x tegen als aanvaller, goed fysiek nodig"
@@ -578,7 +581,7 @@
         }
       },
       {
-        "Bring_the_ball_out_of_defence": {
+        "Zoekt_voetballende_oplossing_vanuit_verdediging": {
           "description": [
             "Heel goed voor centrale verdedigers, Ball-playing defenders",
             "Je lokt tegenstanders om een vrije man te creëren"
