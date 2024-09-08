@@ -214,7 +214,7 @@
         "Temperament": " - ",
         "Leadership": " - "
       },
-      "(Charismatic Leader)": {
+      "Charismatische leider": {
         "Ambition": " - ",
         "Determination": " - ",
         "Loyalty": " - ",
@@ -224,7 +224,7 @@
         "Temperament": "18 - 20",
         "Leadership": "18-20"
       },
-      "(Born Leader)": {
+      "Geboren leider": {
         "Ambition": " - ",
         "Determination": "20",
         "Loyalty": " - ",
@@ -274,7 +274,7 @@
         "Temperament": " - ",
         "Leadership": " - "
       },
-      "Grillig (Newgen Players Only)": {
+      "Grillig": {
         "Ambition": "15 - 20",
         "Determination": " 1 - 14",
         "Loyalty": "1 - 14",
@@ -284,13 +284,83 @@
         "Temperament": " - ",
         "Leadership": " - "
       },
-      "Geldwolf (Newgen Players Only)": {
+      "Geldwolf": {
         "Ambition": "16 - 20",
-        "Determination": " 1 - 17",
+        "Determination": "1 - 17",
         "Loyalty": "1 - 3",
         "Pressure": " - ",
         "Proffesionalism": " - ",
         "Sportsmanship": " - ",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Gebalanceerd (Neutraal)": {
+        "Ambition": "1 - 14",
+        "Determination": "1 - 14",
+        "Loyalty": "1 - 14",
+        "Pressure": " - ",
+        "Proffesionalism": "1 - 14",
+        "Sportsmanship": "1 - 14",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Toegewijd (Neutraal)": {
+        "Ambition": "5 - 8",
+        "Determination": " 18 - 20",
+        "Loyalty": "20",
+        "Pressure": " - ",
+        "Proffesionalism": " - ",
+        "Sportsmanship": " - ",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Sportief (Neutraal)": {
+        "Ambition": " - ",
+        "Determination": " 1 - 10",
+        "Loyalty": " - ",
+        "Pressure": " - ",
+        "Proffesionalism": "8 - 20",
+        "Sportsmanship": "18 - 20",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Redelijk sportief (Neutraal)": {
+        "Ambition": "1 - 14",
+        "Determination": " 1 - 14",
+        "Loyalty": "1 - 14",
+        "Pressure": " - ",
+        "Proffesionalism": "1 - 14",
+        "Sportsmanship": "15 - 20",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Eerlijk (Neutraal)": {
+        "Ambition": " - ",
+        "Determination": " 1 - 10",
+        "Loyalty": " - ",
+        "Pressure": " - ",
+        "Proffesionalism": "5 - 20",
+        "Sportsmanship": "20",
+        "Temperament": " - ",
+        "Leadership": " - "
+      },
+      "Hartelijk (Neutraal)": {
+        "Ambition": " - ",
+        "Determination": " 1 - 17",
+        "Loyalty": " - ",
+        "Pressure": "15 - 20",
+        "Proffesionalism": "1 - 10",
+        "Sportsmanship": "1 - 14",
+        "Temperament": "10 - 20",
+        "Leadership": " - "
+      },
+      "Makkelijk ontmoedigd (Negatief)": {
+        "Ambition": "1 - 10",
+        "Determination": " 1",
+        "Loyalty": " - ",
+        "Pressure": " - ",
+        "Proffesionalism": "5 - 20",
+        "Sportsmanship": "1 - 17",
         "Temperament": " - ",
         "Leadership": " - "
       }
